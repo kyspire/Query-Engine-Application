@@ -1,5 +1,5 @@
 # Project Demo 
-https://youtu.be/dGNfOt7ehxE
+https://youtu.be/dGNfOt7ehxE - This is the demo if you want to see what this project is about :) 
 
 # CPSC 310 Project Repository
 
