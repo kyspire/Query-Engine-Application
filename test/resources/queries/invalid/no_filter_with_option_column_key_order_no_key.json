@@ -1,0 +1,15 @@
+{
+  "title": "No filter with no closing comma",
+  "input": {
+    "WHERE": {},
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_avg",
+        "sections_id"
+      ],
+      "ORDER": {}
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

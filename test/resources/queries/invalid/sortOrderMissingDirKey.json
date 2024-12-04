@@ -1,0 +1,21 @@
+{
+	"title": "Missing Dir Key",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title"
+			],
+			"ORDER": {
+
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

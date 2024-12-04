@@ -1,0 +1,7138 @@
+{
+	"title": "ExtaApplyKeyValid",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title",
+				"minimum"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_instructor",
+				"sections_title"
+			],
+			"APPLY": [
+				{
+					"minimum": {
+						"AVG": "sections_avg"
+					}
+				},
+				{
+					"sections": {
+						"COUNT": "sections_pass"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_instructor": "",
+			"sections_title": "rsrch methdlgy",
+			"minimum": 94.44
+		},
+		{
+			"sections_instructor": "bishundayal, deonarine",
+			"sections_title": "dev wkshp/sem",
+			"minimum": 93.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dev wkshp/sem",
+			"minimum": 90.02
+		},
+		{
+			"sections_instructor": "bishundayal, deonarine",
+			"sections_title": "com adult educ",
+			"minimum": 90.92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "com adult educ",
+			"minimum": 91.09
+		},
+		{
+			"sections_instructor": "vanwynsberghe, robert",
+			"sections_title": "adul educ",
+			"minimum": 90.16
+		},
+		{
+			"sections_instructor": "falk, clifford",
+			"sections_title": "adul educ",
+			"minimum": 90.18
+		},
+		{
+			"sections_instructor": "krebs, claudia",
+			"sections_title": "fnd bdy dsgn:bsc",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fnd bdy dsgn:bsc",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "krebs, claudia",
+			"sections_title": "fnc hmn ant h&n",
+			"minimum": 91.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fnc hmn ant h&n",
+			"minimum": 91.67
+		},
+		{
+			"sections_instructor": "menzies, charles",
+			"sections_title": "hist anth thght",
+			"minimum": 90.92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hist anth thght",
+			"minimum": 90.92
+		},
+		{
+			"sections_instructor": "kamat, vinay ramnath",
+			"sections_title": "sem medical anth",
+			"minimum": 92.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sem medical anth",
+			"minimum": 92.29
+		},
+		{
+			"sections_instructor": "rushen, jeffrey",
+			"sections_title": "tpcs appl biolgy",
+			"minimum": 91.86
+		},
+		{
+			"sections_instructor": "wassink, berend",
+			"sections_title": "eng mtls lab",
+			"minimum": 92.63
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "eng mtls lab",
+			"minimum": 91.72
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "info tech&archvs",
+			"minimum": 93.4
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "info tech&archvs",
+			"minimum": 92.81
+		},
+		{
+			"sections_instructor": "robinson, maria",
+			"sections_title": "info tech&archvs",
+			"minimum": 91.63
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "aud&non-txt arch",
+			"minimum": 96.94
+		},
+		{
+			"sections_instructor": "broadley, louise;olsen, anne",
+			"sections_title": "mangmt info orgs",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mangmt info orgs",
+			"minimum": 90.27
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv std min area",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "master's thesis",
+			"minimum": 91.35
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "astronomical lab",
+			"minimum": 91.4
+		},
+		{
+			"sections_instructor": "sossi, vesna",
+			"sections_title": "honours thesis",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "honours thesis",
+			"minimum": 92.25
+		},
+		{
+			"sections_instructor": "stull, roland",
+			"sections_title": "bndry-lyr metrly",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "bndry-lyr metrly",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "acous & art phon",
+			"minimum": 91.4
+		},
+		{
+			"sections_instructor": "herdman, anthony",
+			"sections_title": "hearing sci ii",
+			"minimum": 92.24
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hearing sci ii",
+			"minimum": 92.24
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "comm disorders",
+			"minimum": 93.24
+		},
+		{
+			"sections_instructor": "adelman, sharon;macleod, elizabeth d",
+			"sections_title": "comm disorders",
+			"minimum": 93.91
+		},
+		{
+			"sections_instructor": "avery, lisa ann;rammage, linda;reynolds, cindy",
+			"sections_title": "disord sp prod",
+			"minimum": 90.38
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "disord sp prod",
+			"minimum": 90.38
+		},
+		{
+			"sections_instructor": "purves, barbara",
+			"sections_title": "acquired lng dis",
+			"minimum": 92.29
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "acquired lng dis",
+			"minimum": 91.69
+		},
+		{
+			"sections_instructor": "duke, wendy",
+			"sections_title": "acquired lng dis",
+			"minimum": 91.1
+		},
+		{
+			"sections_instructor": "dillon, lisa",
+			"sections_title": "aural rehb i",
+			"minimum": 90.77
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "aural rehb i",
+			"minimum": 90.92
+		},
+		{
+			"sections_instructor": "small, susan",
+			"sections_title": "aural rehb i",
+			"minimum": 91.08
+		},
+		{
+			"sections_instructor": "shahnaz, navid",
+			"sections_title": "hearng and noise",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hearng and noise",
+			"minimum": 91.38
+		},
+		{
+			"sections_instructor": "brown, sasha",
+			"sections_title": "hearng and noise",
+			"minimum": 91.75
+		},
+		{
+			"sections_instructor": "shahnaz, navid",
+			"sections_title": "diag audio ii",
+			"minimum": 90.72
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "diag audio ii",
+			"minimum": 90.72
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "amplification ii",
+			"minimum": 92.45
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "amplification ii",
+			"minimum": 92.45
+		},
+		{
+			"sections_instructor": "herdman, anthony",
+			"sections_title": "phyl ms aud func",
+			"minimum": 93.05
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "phyl ms aud func",
+			"minimum": 93.06
+		},
+		{
+			"sections_instructor": "hatton, jennifer;herdman, anthony",
+			"sections_title": "phyl ms aud func",
+			"minimum": 93.09
+		},
+		{
+			"sections_instructor": "small, susan",
+			"sections_title": "pediatric audio",
+			"minimum": 93.12
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "pediatric audio",
+			"minimum": 93.12
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "audi adv prc i",
+			"minimum": 91.42
+		},
+		{
+			"sections_instructor": "adelman, sharon",
+			"sections_title": "audi prctcm iii",
+			"minimum": 91.99
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "audi prctcm iii",
+			"minimum": 91.81
+		},
+		{
+			"sections_instructor": "adelman, sharon;hicks, darlene",
+			"sections_title": "audi prctcm iii",
+			"minimum": 91.29
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "audi adv prc ii",
+			"minimum": 93.22
+		},
+		{
+			"sections_instructor": "adelman, sharon",
+			"sections_title": "audi prctcm iv",
+			"minimum": 94.54
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "audi prctcm iv",
+			"minimum": 93.94
+		},
+		{
+			"sections_instructor": "adelman, sharon;hicks, darlene",
+			"sections_title": "audi prctcm iv",
+			"minimum": 92.22
+		},
+		{
+			"sections_instructor": "bernhardt, barbara",
+			"sections_title": "phono intervent",
+			"minimum": 90.8
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "phono intervent",
+			"minimum": 90.8
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "lang dev&dis sch",
+			"minimum": 90.95
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "lang dev&dis sch",
+			"minimum": 90.95
+		},
+		{
+			"sections_instructor": "avery, lisa ann",
+			"sections_title": "tpcs flu disord",
+			"minimum": 91.73
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tpcs flu disord",
+			"minimum": 90.97
+		},
+		{
+			"sections_instructor": "avery, lisa ann;tba",
+			"sections_title": "tpcs flu disord",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "adler-bock, marcy;avery, lisa ann",
+			"sections_title": "tpcs flu disord",
+			"minimum": 90.43
+		},
+		{
+			"sections_instructor": "reynolds, cindy",
+			"sections_title": "as in s&s disord",
+			"minimum": 90.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "as in s&s disord",
+			"minimum": 92.13
+		},
+		{
+			"sections_instructor": "marcoux, caroline;poirier, brigitte",
+			"sections_title": "as in s&s disord",
+			"minimum": 93.75
+		},
+		{
+			"sections_instructor": "bernhardt, barbara;rammage, linda;small, jeff alan",
+			"sections_title": "adv speech scie",
+			"minimum": 90.12
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv speech scie",
+			"minimum": 90.12
+		},
+		{
+			"sections_instructor": "small, jeff alan",
+			"sections_title": "lang dev life",
+			"minimum": 93.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "lang dev life",
+			"minimum": 93.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sp-lg pth prc i",
+			"minimum": 91.33
+		},
+		{
+			"sections_instructor": "avery, lisa ann;taylor, sandra lynn",
+			"sections_title": "sp-lg pth pr iii",
+			"minimum": 90.57
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sp-lg pth pr iii",
+			"minimum": 90.57
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "forecasting mgmt",
+			"minimum": 91.38
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "forecasting mgmt",
+			"minimum": 91.38
+		},
+		{
+			"sections_instructor": "atkins, derek",
+			"sections_title": "app mng scie i",
+			"minimum": 90.23
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "app mng scie i",
+			"minimum": 90.23
+		},
+		{
+			"sections_instructor": "zhang, zhe",
+			"sections_title": "prob mgmt models",
+			"minimum": 91.47
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prob mgmt models",
+			"minimum": 91.47
+		},
+		{
+			"sections_instructor": "cullis, pieter;duong van hoa, franck;molday, robert",
+			"sections_title": "membrane str&fnc",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "membrane str&fnc",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "cullis, pieter;molday, robert",
+			"sections_title": "membrane str&fnc",
+			"minimum": 90.25
+		},
+		{
+			"sections_instructor": "cullis, pieter",
+			"sections_title": "adv tpcs mole bi",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv tpcs mole bi",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "jones, steven j",
+			"sections_title": "prob-bsd lrn bio",
+			"minimum": 92.24
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prob-bsd lrn bio",
+			"minimum": 92.24
+		},
+		{
+			"sections_instructor": "douglas, carl;schulte, patricia",
+			"sections_title": "prin&meth rsch i",
+			"minimum": 91.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prin&meth rsch i",
+			"minimum": 91.33
+		},
+		{
+			"sections_instructor": "cronk, quentin charles",
+			"sections_title": "plant genomics",
+			"minimum": 91.21
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "plant genomics",
+			"minimum": 91.21
+		},
+		{
+			"sections_instructor": "singh, santokh",
+			"sections_title": "biology research",
+			"minimum": 90.92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "biology research",
+			"minimum": 91.16
+		},
+		{
+			"sections_instructor": "ellis, shona margaret",
+			"sections_title": "biology research",
+			"minimum": 91.21
+		},
+		{
+			"sections_instructor": "blake, robert wm;ganders, fred r",
+			"sections_title": "biology research",
+			"minimum": 90.3
+		},
+		{
+			"sections_instructor": "bohlmann, jorg",
+			"sections_title": "ecolg plant bioc",
+			"minimum": 91.9
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ecolg plant bioc",
+			"minimum": 91.9
+		},
+		{
+			"sections_instructor": "mizumoto, kota",
+			"sections_title": "animal dvl gntcs",
+			"minimum": 92.36
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "animal dvl gntcs",
+			"minimum": 92.36
+		},
+		{
+			"sections_instructor": "van der loos, hendrik;wilson, david",
+			"sections_title": "med tech project",
+			"minimum": 90.9
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "med tech project",
+			"minimum": 93.03
+		},
+		{
+			"sections_instructor": "hodgson, antony",
+			"sections_title": "med tech project",
+			"minimum": 95.15
+		},
+		{
+			"sections_instructor": "dumont, guy a",
+			"sections_title": "master eng proj",
+			"minimum": 95
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "master eng proj",
+			"minimum": 95
+		},
+		{
+			"sections_instructor": "abolmaesumi, purang",
+			"sections_title": "m.a. sc. thesis",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "m.a. sc. thesis",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "zhang, yuelin",
+			"sections_title": "sem in botany",
+			"minimum": 90.71
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sem in botany",
+			"minimum": 90.71
+		},
+		{
+			"sections_instructor": "bohlmann, jorg",
+			"sections_title": "topics plnt bioc",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "topics plnt bioc",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "ng, david",
+			"sections_title": "plant molec lab",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "plant molec lab",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "watson, scott",
+			"sections_title": "grad prac",
+			"minimum": 93.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "grad prac",
+			"minimum": 93.67
+		},
+		{
+			"sections_instructor": "mazzi, eric",
+			"sections_title": "project & report",
+			"minimum": 92.62
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "project & report",
+			"minimum": 91.78
+		},
+		{
+			"sections_instructor": "prodanovic, vladan zoran",
+			"sections_title": "project & report",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tpcs cell comm",
+			"minimum": 90.86
+		},
+		{
+			"sections_instructor": "vogl, a wayne",
+			"sections_title": "tpc cytosk&cl mo",
+			"minimum": 92.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tpc cytosk&cl mo",
+			"minimum": 92.21
+		},
+		{
+			"sections_instructor": "loewen, christopher;nabi, ivan robert",
+			"sections_title": "tpc int-cel traf",
+			"minimum": 92.03
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tpc int-cel traf",
+			"minimum": 92.03
+		},
+		{
+			"sections_instructor": "haas, kurt",
+			"sections_title": "fluor microscpy",
+			"minimum": 91.76
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fluor microscpy",
+			"minimum": 92.03
+		},
+		{
+			"sections_instructor": "underhill, tully michael",
+			"sections_title": "tech cel&dev bio",
+			"minimum": 90.79
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tech cel&dev bio",
+			"minimum": 90.79
+		},
+		{
+			"sections_instructor": "kieffer, tim",
+			"sections_title": "gen&cell therapy",
+			"minimum": 92.4
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "gen&cell therapy",
+			"minimum": 92.4
+		},
+		{
+			"sections_instructor": "hatzikiriakos, savvas",
+			"sections_title": "ths prop: biotec",
+			"minimum": 94.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ths prop: biotec",
+			"minimum": 94.75
+		},
+		{
+			"sections_instructor": "feng, james jingtao",
+			"sections_title": "ths: biotech tpc",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ths: biotech tpc",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "gopaluni, bhushan",
+			"sections_title": "thermodynamics",
+			"minimum": 95.54
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "thermodynamics",
+			"minimum": 92.94
+		},
+		{
+			"sections_instructor": "haynes, charles",
+			"sections_title": "thermodynamics",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "feng, james jingtao",
+			"sections_title": "math operations",
+			"minimum": 90.86
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "math operations",
+			"minimum": 91.87
+		},
+		{
+			"sections_instructor": "gopaluni, bhushan",
+			"sections_title": "math operations",
+			"minimum": 95.31
+		},
+		{
+			"sections_instructor": "smith, kevin",
+			"sections_title": "appl heterog cat",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "appl heterog cat",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "lau, anthony k",
+			"sections_title": "air polutn cntrl",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "air polutn cntrl",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "gyenge, christina",
+			"sections_title": "energy enginring",
+			"minimum": 90.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "energy enginring",
+			"minimum": 90.5
+		},
+		{
+			"sections_instructor": "wilkinson, david",
+			"sections_title": "masc thesis dev",
+			"minimum": 90.45
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "masc thesis dev",
+			"minimum": 90.45
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "masc thesis",
+			"minimum": 90.93
+		},
+		{
+			"sections_instructor": "englezos, peter",
+			"sections_title": "masc thesis",
+			"minimum": 92.75
+		},
+		{
+			"sections_instructor": "krems, roman",
+			"sections_title": "quant mech chem",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "quant mech chem",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "patrick, brian",
+			"sections_title": "crystal structre",
+			"minimum": 91.56
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "crystal structre",
+			"minimum": 91.56
+		},
+		{
+			"sections_instructor": "blades, michael;turner, robin",
+			"sections_title": "bioanalyt chem",
+			"minimum": 91.47
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "bioanalyt chem",
+			"minimum": 91.47
+		},
+		{
+			"sections_instructor": "chen, david",
+			"sections_title": "prin chem separ",
+			"minimum": 91.47
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prin chem separ",
+			"minimum": 91.47
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "child's lit",
+			"minimum": 91.46
+		},
+		{
+			"sections_instructor": "naghibi, ali",
+			"sections_title": "opt&dcs anl civl",
+			"minimum": 90.11
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "opt&dcs anl civl",
+			"minimum": 90.11
+		},
+		{
+			"sections_instructor": "lo, kwang victor",
+			"sections_title": "envr'tl lab anly",
+			"minimum": 90.44
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "envr'tl lab anly",
+			"minimum": 90.44
+		},
+		{
+			"sections_instructor": "joghataie, abdolreza",
+			"sections_title": "adv steel design",
+			"minimum": 91.06
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv steel design",
+			"minimum": 91.06
+		},
+		{
+			"sections_instructor": "ventura, carlos estuardo",
+			"sections_title": "matrx struc anly",
+			"minimum": 90.22
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "matrx struc anly",
+			"minimum": 90.22
+		},
+		{
+			"sections_instructor": "lim, clark",
+			"sections_title": "transprt'n eng 2",
+			"minimum": 90.26
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "transprt'n eng 2",
+			"minimum": 90.26
+		},
+		{
+			"sections_instructor": "jenkins, dr jacqueline",
+			"sections_title": "trns sys pl&anly",
+			"minimum": 90.39
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "trns sys pl&anly",
+			"minimum": 90.39
+		},
+		{
+			"sections_instructor": "chieng, sie-tan;stiemer, siegfried",
+			"sections_title": "desig & analys 2",
+			"minimum": 91.46
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "desig & analys 2",
+			"minimum": 91.46
+		},
+		{
+			"sections_instructor": "ventura, carlos estuardo",
+			"sections_title": "seismic rsp strc",
+			"minimum": 91.78
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "seismic rsp strc",
+			"minimum": 91.78
+		},
+		{
+			"sections_instructor": "ventura, carlos estuardo",
+			"sections_title": "dynam struct 2",
+			"minimum": 93.39
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dynam struct 2",
+			"minimum": 93.39
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv tpcs stl str",
+			"minimum": 91.56
+		},
+		{
+			"sections_instructor": "tannert, thomas",
+			"sections_title": "adv tpcs tmbr st",
+			"minimum": 91.32
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv tpcs tmbr st",
+			"minimum": 91.32
+		},
+		{
+			"sections_instructor": "staub-french, sheryl",
+			"sections_title": "3d mdl cost est",
+			"minimum": 90.2
+		},
+		{
+			"sections_instructor": "lence, barbara jean",
+			"sections_title": "optimiz eng syst",
+			"minimum": 90.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "optimiz eng syst",
+			"minimum": 90.25
+		},
+		{
+			"sections_instructor": "lence, barbara jean",
+			"sections_title": "anly civl sys",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "anly civl sys",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "wijewickreme, dharmapriya",
+			"sections_title": "soil dynamics",
+			"minimum": 90.06
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "soil dynamics",
+			"minimum": 90.06
+		},
+		{
+			"sections_instructor": "bigazzi, alexander york",
+			"sections_title": "urbn engr m&m",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "urbn engr m&m",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "jenkins, dr jacqueline",
+			"sections_title": "urbn trans systm",
+			"minimum": 92.3
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "urbn trans systm",
+			"minimum": 92.3
+		},
+		{
+			"sections_instructor": "westwood, marvin",
+			"sections_title": "basic intvw skls",
+			"minimum": 91.18
+		},
+		{
+			"sections_instructor": "amundson, norman;sawatsky, frank",
+			"sections_title": "basic intvw skls",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "basic intvw skls",
+			"minimum": 90.42
+		},
+		{
+			"sections_instructor": "motl, thomas",
+			"sections_title": "basic intvw skls",
+			"minimum": 90.84
+		},
+		{
+			"sections_instructor": "bruno, talino",
+			"sections_title": "career counselng",
+			"minimum": 91.57
+		},
+		{
+			"sections_instructor": "weinberg, mark",
+			"sections_title": "career counselng",
+			"minimum": 91.89
+		},
+		{
+			"sections_instructor": "pickerell, deirdre",
+			"sections_title": "career counselng",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "career counselng",
+			"minimum": 90.89
+		},
+		{
+			"sections_instructor": "klubben, laura",
+			"sections_title": "int thry counsel",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "weinberg, mark",
+			"sections_title": "int thry counsel",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "int thry counsel",
+			"minimum": 91.13
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "role tcher guid",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "gaster, sean",
+			"sections_title": "role tcher guid",
+			"minimum": 91.22
+		},
+		{
+			"sections_instructor": "swan, graeme",
+			"sections_title": "role tcher guid",
+			"minimum": 90.12
+		},
+		{
+			"sections_instructor": "marshall, janet vaughan",
+			"sections_title": "psnl soc dv adlt",
+			"minimum": 90.72
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "psnl soc dv adlt",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "owens, rhea",
+			"sections_title": "schl counselling",
+			"minimum": 95.78
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "schl counselling",
+			"minimum": 95.17
+		},
+		{
+			"sections_instructor": "smith, gillian",
+			"sections_title": "schl counselling",
+			"minimum": 94.56
+		},
+		{
+			"sections_instructor": "weinberg, mark",
+			"sections_title": "counsl adolescnt",
+			"minimum": 95.36
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "counsl adolescnt",
+			"minimum": 92.27
+		},
+		{
+			"sections_instructor": "dyer, brenda",
+			"sections_title": "counsl adolescnt",
+			"minimum": 91.24
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "counslng adults",
+			"minimum": 90.78
+		},
+		{
+			"sections_instructor": "dyer, brenda",
+			"sections_title": "counslng adults",
+			"minimum": 90.69
+		},
+		{
+			"sections_instructor": "ishiyama, fumio ishu",
+			"sections_title": "counslng adults",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "schultz, izabela",
+			"sections_title": "adlt psychpathlg",
+			"minimum": 93.69
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adlt psychpathlg",
+			"minimum": 92.47
+		},
+		{
+			"sections_instructor": "adler, michal",
+			"sections_title": "family counsl ii",
+			"minimum": 91.48
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "family counsl ii",
+			"minimum": 91.9
+		},
+		{
+			"sections_instructor": "miller, lynn delaine",
+			"sections_title": "family counsl ii",
+			"minimum": 92.35
+		},
+		{
+			"sections_instructor": "elez, tatjana",
+			"sections_title": "family counsl ii",
+			"minimum": 90.44
+		},
+		{
+			"sections_instructor": "james, susan",
+			"sections_title": "family counsl ii",
+			"minimum": 92.4
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "group counsling",
+			"minimum": 90.94
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "group counsling",
+			"minimum": 91.01
+		},
+		{
+			"sections_instructor": "dadson, michael",
+			"sections_title": "group counsling",
+			"minimum": 90.64
+		},
+		{
+			"sections_instructor": "amundson, norman",
+			"sections_title": "group counsling",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "jordan, sharalyn",
+			"sections_title": "career planning",
+			"minimum": 90.87
+		},
+		{
+			"sections_instructor": "amundson, norman",
+			"sections_title": "career planning",
+			"minimum": 91.22
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "career planning",
+			"minimum": 92.18
+		},
+		{
+			"sections_instructor": "cox, daniel",
+			"sections_title": "career planning",
+			"minimum": 99.19
+		},
+		{
+			"sections_instructor": "neault, roberta a",
+			"sections_title": "career planning",
+			"minimum": 97.47
+		},
+		{
+			"sections_instructor": "young, richard",
+			"sections_title": "research in cnps",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "research in cnps",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "carter, john",
+			"sections_title": "prgm devl cnsl",
+			"minimum": 94.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prgm devl cnsl",
+			"minimum": 93.14
+		},
+		{
+			"sections_instructor": "cox, daniel",
+			"sections_title": "prgm devl cnsl",
+			"minimum": 93.13
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_title": "",
+			"minimum": 92.59
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "",
+			"minimum": 92.51
+		},
+		{
+			"sections_instructor": "flood, karen",
+			"sections_title": "",
+			"minimum": 92.41
+		},
+		{
+			"sections_instructor": "haney, colleen;hawley, jody;tba",
+			"sections_title": "",
+			"minimum": 92.29
+		},
+		{
+			"sections_instructor": "james, susan",
+			"sections_title": "cross-cltr cnsl",
+			"minimum": 92.8
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cross-cltr cnsl",
+			"minimum": 92.19
+		},
+		{
+			"sections_instructor": "ishiyama, fumio ishu",
+			"sections_title": "cross-cltr cnsl",
+			"minimum": 91.78
+		},
+		{
+			"sections_instructor": "schultz, izabela",
+			"sections_title": "",
+			"minimum": 92.4
+		},
+		{
+			"sections_instructor": "berrington, david arthur",
+			"sections_title": "compensation",
+			"minimum": 90.46
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "compensation",
+			"minimum": 90.46
+		},
+		{
+			"sections_instructor": "ghement, isabella",
+			"sections_title": "stats methlgy i",
+			"minimum": 94.06
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "stats methlgy i",
+			"minimum": 94.06
+		},
+		{
+			"sections_instructor": "arcese, peter",
+			"sections_title": "intro to conserv",
+			"minimum": 90.1
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intro to conserv",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "trosper, ronald",
+			"sections_title": "aborignl forestr",
+			"minimum": 90.21
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "aborignl forestr",
+			"minimum": 90.21
+		},
+		{
+			"sections_instructor": "hoos, holger",
+			"sections_title": "alg in bioin",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "alg in bioin",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "knorr, edwin max",
+			"sections_title": "honours thesis",
+			"minimum": 93.06
+		},
+		{
+			"sections_instructor": "tsiknis, georgios",
+			"sections_title": "honours thesis",
+			"minimum": 92.04
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "student seminar",
+			"minimum": 91.2
+		},
+		{
+			"sections_instructor": "wolfman, steven",
+			"sections_title": "student seminar",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "friedman, joel",
+			"sections_title": "thry of automata",
+			"minimum": 92.48
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "thry of automata",
+			"minimum": 92.55
+		},
+		{
+			"sections_instructor": "harvey, nicholas",
+			"sections_title": "thry of automata",
+			"minimum": 92.75
+		},
+		{
+			"sections_instructor": "carenini, giuseppe",
+			"sections_title": "computl ling 1",
+			"minimum": 94.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "computl ling 1",
+			"minimum": 94.5
+		},
+		{
+			"sections_instructor": "wohlstadter, eric",
+			"sections_title": "software eng",
+			"minimum": 91.79
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "software eng",
+			"minimum": 91.79
+		},
+		{
+			"sections_instructor": "poole, david",
+			"sections_title": "artif intell 2",
+			"minimum": 90.71
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "artif intell 2",
+			"minimum": 90.71
+		},
+		{
+			"sections_instructor": "beschastnikh, ivan",
+			"sections_title": "comp comm protcl",
+			"minimum": 91.22
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "comp comm protcl",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "krasic, charles",
+			"sections_title": "comp comm protcl",
+			"minimum": 90.11
+		},
+		{
+			"sections_instructor": "schmidt, mark",
+			"sections_title": "machine learn i",
+			"minimum": 90.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "machine learn i",
+			"minimum": 90.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "m.sc major essay",
+			"minimum": 95
+		},
+		{
+			"sections_instructor": "campbell, deborah",
+			"sections_title": "prep writ career",
+			"minimum": 93.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prep writ career",
+			"minimum": 93.2
+		},
+		{
+			"sections_instructor": "medved, maureen",
+			"sections_title": "thesis",
+			"minimum": 94.25
+		},
+		{
+			"sections_instructor": "galloway, steve",
+			"sections_title": "thesis",
+			"minimum": 95.22
+		},
+		{
+			"sections_instructor": "tregebov, rhea",
+			"sections_title": "thesis",
+			"minimum": 93.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "thesis",
+			"minimum": 93.66
+		},
+		{
+			"sections_instructor": "svendsen, linda jane",
+			"sections_title": "thesis",
+			"minimum": 94.5
+		},
+		{
+			"sections_instructor": "campbell, deborah",
+			"sections_title": "thesis",
+			"minimum": 97
+		},
+		{
+			"sections_instructor": "lyon, annabel",
+			"sections_title": "thesis",
+			"minimum": 92.33
+		},
+		{
+			"sections_instructor": "graefe, sara",
+			"sections_title": "thesis",
+			"minimum": 93.75
+		},
+		{
+			"sections_instructor": "taylor, timothy",
+			"sections_title": "thesis",
+			"minimum": 94
+		},
+		{
+			"sections_instructor": "schendlinger, mary",
+			"sections_title": "thesis",
+			"minimum": 93.67
+		},
+		{
+			"sections_instructor": "maillard, keith",
+			"sections_title": "thesis",
+			"minimum": 96.67
+		},
+		{
+			"sections_instructor": "musgrave, susan",
+			"sections_title": "thesis",
+			"minimum": 92.33
+		},
+		{
+			"sections_instructor": "grady, albert wayne",
+			"sections_title": "thesis",
+			"minimum": 95.33
+		},
+		{
+			"sections_instructor": "gartner, zsu zsi",
+			"sections_title": "thesis",
+			"minimum": 92.8
+		},
+		{
+			"sections_instructor": "acheson, alison",
+			"sections_title": "thesis",
+			"minimum": 95
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "thesis",
+			"minimum": 92.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "endo micro-surg",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cr-fc grwth&dev",
+			"minimum": 94.33
+		},
+		{
+			"sections_instructor": "von bergmann, hsingchi",
+			"sections_title": "stats methods",
+			"minimum": 91.82
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "stats methods",
+			"minimum": 91.82
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "rs mth&sem orbi",
+			"minimum": 91.77
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "or microbi&immun",
+			"minimum": 90.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "oral pathology",
+			"minimum": 90.42
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "implant therapy",
+			"minimum": 91.11
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "endo lit rev i",
+			"minimum": 90.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "endo lit rev ii",
+			"minimum": 90.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "clin endo yr 2",
+			"minimum": 90.5
+		},
+		{
+			"sections_instructor": "mcfarlane, rae",
+			"sections_title": "curr iss oral hl",
+			"minimum": 91.84
+		},
+		{
+			"sections_instructor": "mcfarlane, rae",
+			"sections_title": "dentalhyg prac i",
+			"minimum": 90.08
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dentalhyg prac i",
+			"minimum": 90.08
+		},
+		{
+			"sections_instructor": "mcfarlane, rae",
+			"sections_title": "trends & topics",
+			"minimum": 92.64
+		},
+		{
+			"sections_instructor": "mcfarlane, rae",
+			"sections_title": "lit review i",
+			"minimum": 90.98
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "lit review i",
+			"minimum": 91.15
+		},
+		{
+			"sections_instructor": "mcfarlane, rae",
+			"sections_title": "lit review ii",
+			"minimum": 92.03
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "lit review ii",
+			"minimum": 90.95
+		},
+		{
+			"sections_instructor": "thom, marie",
+			"sections_title": "kinder curriclm",
+			"minimum": 93.72
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "kinder curriclm",
+			"minimum": 93.72
+		},
+		{
+			"sections_instructor": "lintott, deirdre;thom, marie",
+			"sections_title": "home/schl/cmnty",
+			"minimum": 91.93
+		},
+		{
+			"sections_instructor": "pighini, maria",
+			"sections_title": "obsv&doc erly ch",
+			"minimum": 92.87
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "obsv&doc erly ch",
+			"minimum": 92.87
+		},
+		{
+			"sections_instructor": "el khatib, lara",
+			"sections_title": "asmnt spec needs",
+			"minimum": 92.05
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "asmnt spec needs",
+			"minimum": 91.94
+		},
+		{
+			"sections_instructor": "richardson, catherine",
+			"sections_title": "sup indg inftnts",
+			"minimum": 90.81
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sup indg inftnts",
+			"minimum": 90.81
+		},
+		{
+			"sections_instructor": "perla, jesse",
+			"sections_title": "topcs macroecon",
+			"minimum": 91.08
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "topcs macroecon",
+			"minimum": 91.08
+		},
+		{
+			"sections_instructor": "sakata, shinichi",
+			"sections_title": "econometrics",
+			"minimum": 90.68
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "econometrics",
+			"minimum": 90.68
+		},
+		{
+			"sections_instructor": "anderson, kristin siwan",
+			"sections_title": "honours seminar",
+			"minimum": 91.3
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "honours seminar",
+			"minimum": 90.84
+		},
+		{
+			"sections_instructor": "gallipoli, giovanni",
+			"sections_title": "spc tpcs macroec",
+			"minimum": 92.41
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "spc tpcs macroec",
+			"minimum": 92.41
+		},
+		{
+			"sections_instructor": "halevy, yoram",
+			"sections_title": "behav economics",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "behav economics",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "sakata, shinichi",
+			"sections_title": "problty & stat",
+			"minimum": 92.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "problty & stat",
+			"minimum": 92.25
+		},
+		{
+			"sections_instructor": "perla, jesse",
+			"sections_title": "montry thry pol",
+			"minimum": 90.19
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "montry thry pol",
+			"minimum": 90.19
+		},
+		{
+			"sections_instructor": "green, david",
+			"sections_title": "labour economics",
+			"minimum": 93.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "labour economics",
+			"minimum": 91.73
+		},
+		{
+			"sections_instructor": "hoffmann, florian",
+			"sections_title": "labour economics",
+			"minimum": 90.13
+		},
+		{
+			"sections_instructor": "schrimpf, paul",
+			"sections_title": "market structure",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "market structure",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "diewert, w erwin",
+			"sections_title": "soc & econ measu",
+			"minimum": 92.34
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "soc & econ measu",
+			"minimum": 92.34
+		},
+		{
+			"sections_instructor": "gallipoli, giovanni",
+			"sections_title": "macroecon ii",
+			"minimum": 91.79
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "macroecon ii",
+			"minimum": 91.79
+		},
+		{
+			"sections_instructor": "marmer, vadim",
+			"sections_title": "econ thry ii",
+			"minimum": 91.36
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "econ thry ii",
+			"minimum": 91.36
+		},
+		{
+			"sections_instructor": "kasahara, hiroyuki",
+			"sections_title": "tpcs app econ i",
+			"minimum": 91.86
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tpcs app econ i",
+			"minimum": 91.86
+		},
+		{
+			"sections_instructor": "lemieux, thomas",
+			"sections_title": "ph d resrch sem",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ph d resrch sem",
+			"minimum": 90.64
+		},
+		{
+			"sections_instructor": "siu, henry",
+			"sections_title": "ph d resrch sem",
+			"minimum": 91.02
+		},
+		{
+			"sections_instructor": "gouzouasis, peter",
+			"sections_title": "digtl med: intro",
+			"minimum": 90.24
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "digtl med: intro",
+			"minimum": 90.24
+		},
+		{
+			"sections_instructor": "lucus, calin",
+			"sections_title": "math prblm slvng",
+			"minimum": 92.64
+		},
+		{
+			"sections_instructor": "jeroff, debra",
+			"sections_title": "math prblm slvng",
+			"minimum": 90.95
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "math prblm slvng",
+			"minimum": 92.05
+		},
+		{
+			"sections_instructor": "magee, theresa",
+			"sections_title": "ds tec ii sc c&p",
+			"minimum": 91.99
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ds tec ii sc c&p",
+			"minimum": 91.99
+		},
+		{
+			"sections_instructor": "lamonde, anne-marie",
+			"sections_title": "mus&mov elem c&p",
+			"minimum": 91.48
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mus&mov elem c&p",
+			"minimum": 91.48
+		},
+		{
+			"sections_instructor": "petrina, stephen",
+			"sections_title": "ict educ ethics",
+			"minimum": 95
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ict educ ethics",
+			"minimum": 92.34
+		},
+		{
+			"sections_instructor": "macdowell, paula",
+			"sections_title": "ict educ ethics",
+			"minimum": 91.44
+		},
+		{
+			"sections_instructor": "krug, don",
+			"sections_title": "ict educ ethics",
+			"minimum": 90.57
+		},
+		{
+			"sections_instructor": "nicholson, kathleen;petersen, susan",
+			"sections_title": "hmec ii sec c&p",
+			"minimum": 92.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hmec ii sec c&p",
+			"minimum": 90.89
+		},
+		{
+			"sections_instructor": "johnson, jennifer",
+			"sections_title": "hmec ii sec c&p",
+			"minimum": 90.52
+		},
+		{
+			"sections_instructor": "nicholson, kathleen;petersen, susan",
+			"sections_title": "home ec: 2nd ii",
+			"minimum": 93.3
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "home ec: 2nd ii",
+			"minimum": 93.3
+		},
+		{
+			"sections_instructor": "krug, don",
+			"sections_title": "rev res curr&ped",
+			"minimum": 91.07
+		},
+		{
+			"sections_instructor": "ross, eddie wayne",
+			"sections_title": "rev res curr&ped",
+			"minimum": 92.42
+		},
+		{
+			"sections_instructor": "smith, mary",
+			"sections_title": "rev res curr&ped",
+			"minimum": 93.56
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "rev res curr&ped",
+			"minimum": 91.09
+		},
+		{
+			"sections_instructor": "butler, joy;de cosson, alexander",
+			"sections_title": "rev res curr&ped",
+			"minimum": 91.94
+		},
+		{
+			"sections_instructor": "butler, joy;clarke, anthony",
+			"sections_title": "rev res curr&ped",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "loutzenheiser, lisa",
+			"sections_title": "vid eth ed res",
+			"minimum": 90.73
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "vid eth ed res",
+			"minimum": 90.73
+		},
+		{
+			"sections_instructor": "davis, brent",
+			"sections_title": "case res&analys",
+			"minimum": 92.45
+		},
+		{
+			"sections_instructor": "nicol, cynthia",
+			"sections_title": "mth ed: crnt iss",
+			"minimum": 90.56
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mth ed: crnt iss",
+			"minimum": 90.56
+		},
+		{
+			"sections_instructor": "gerofsky, susan",
+			"sections_title": "mth e: bynd erly",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mth e: bynd erly",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "adler, james douglas",
+			"sections_title": "crit anly sci ed",
+			"minimum": 91.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "crit anly sci ed",
+			"minimum": 91.67
+		},
+		{
+			"sections_instructor": "tan, yuen sze michelle",
+			"sections_title": "thry&rs soc cont",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "thry&rs soc cont",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "milner-bolotin, marina",
+			"sections_title": "res tch & lrn sc",
+			"minimum": 90.64
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "res tch & lrn sc",
+			"minimum": 90.64
+		},
+		{
+			"sections_instructor": "ross, eddie wayne",
+			"sections_title": "curric iss&thry",
+			"minimum": 91.64
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "curric iss&thry",
+			"minimum": 90.78
+		},
+		{
+			"sections_instructor": "de cosson, alexander",
+			"sections_title": "curric iss&thry",
+			"minimum": 91.62
+		},
+		{
+			"sections_instructor": "davis, brent",
+			"sections_title": "curric iss&thry",
+			"minimum": 91.36
+		},
+		{
+			"sections_instructor": "pinar, william",
+			"sections_title": "curric iss&thry",
+			"minimum": 92.31
+		},
+		{
+			"sections_instructor": "phelan, anne",
+			"sections_title": "curric iss&thry",
+			"minimum": 90.47
+		},
+		{
+			"sections_instructor": "gouzouasis, peter",
+			"sections_title": "curric iss&thry",
+			"minimum": 91.99
+		},
+		{
+			"sections_instructor": "petrina, stephen",
+			"sections_title": "curric iss&thry",
+			"minimum": 92.14
+		},
+		{
+			"sections_instructor": "pinar, william",
+			"sections_title": "txt pol& id cdev",
+			"minimum": 94.86
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "txt pol& id cdev",
+			"minimum": 92.82
+		},
+		{
+			"sections_instructor": "ross, eddie wayne",
+			"sections_title": "txt pol& id cdev",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "pinar, william",
+			"sections_title": "curr hist contxt",
+			"minimum": 92.21
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "curr hist contxt",
+			"minimum": 92.21
+		},
+		{
+			"sections_instructor": "shamsher, mohammed",
+			"sections_title": "rsc trd edu admn",
+			"minimum": 91.55
+		},
+		{
+			"sections_instructor": "mazawi, andre",
+			"sections_title": "rsc trd edu admn",
+			"minimum": 94
+		},
+		{
+			"sections_instructor": "mazawi, andre;waithman, marilynne",
+			"sections_title": "rsc trd edu admn",
+			"minimum": 92.19
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "rsc trd edu admn",
+			"minimum": 91.15
+		},
+		{
+			"sections_instructor": "butterwick, shauna",
+			"sections_title": "trad adult edu",
+			"minimum": 90.06
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "trad adult edu",
+			"minimum": 90.06
+		},
+		{
+			"sections_instructor": "marker, michael",
+			"sections_title": "fn & educ change",
+			"minimum": 93.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fn & educ change",
+			"minimum": 93.75
+		},
+		{
+			"sections_instructor": "metcalfe, amy",
+			"sections_title": "org&admin hi edu",
+			"minimum": 92.61
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "org&admin hi edu",
+			"minimum": 92.61
+		},
+		{
+			"sections_instructor": "palacios, carolina",
+			"sections_title": "adu edu pro",
+			"minimum": 93.4
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adu edu pro",
+			"minimum": 93.4
+		},
+		{
+			"sections_instructor": "mazawi, andre",
+			"sections_title": "thy rea adu lea",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "thy rea adu lea",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "butterwick, shauna;chan, jennifer",
+			"sections_title": "adlt edu pract",
+			"minimum": 91.36
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adlt edu pract",
+			"minimum": 93.91
+		},
+		{
+			"sections_instructor": "vanwynsberghe, robert",
+			"sections_title": "adlt edu pract",
+			"minimum": 96.46
+		},
+		{
+			"sections_instructor": "mazawi, andre",
+			"sections_title": "fdns highr educ",
+			"minimum": 92.73
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fdns highr educ",
+			"minimum": 92.73
+		},
+		{
+			"sections_instructor": "metcalfe, amy",
+			"sections_title": "high ed pol",
+			"minimum": 90.87
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "high ed pol",
+			"minimum": 90.87
+		},
+		{
+			"sections_instructor": "shamsher, mohammed",
+			"sections_title": "ldrshp educ org",
+			"minimum": 91.47
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ldrshp educ org",
+			"minimum": 90.46
+		},
+		{
+			"sections_instructor": "gill, hartej",
+			"sections_title": "ldrshp educ org",
+			"minimum": 90.79
+		},
+		{
+			"sections_instructor": "poole, wendy",
+			"sections_title": "ldrshp educ org",
+			"minimum": 90.65
+		},
+		{
+			"sections_instructor": "pamer, monica",
+			"sections_title": "ldrshp educ org",
+			"minimum": 90.36
+		},
+		{
+			"sections_instructor": "roman, leslie",
+			"sections_title": "sem sociol educ",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sem sociol educ",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "vanwynsberghe, robert",
+			"sections_title": "tpcs sociol educ",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tpcs sociol educ",
+			"minimum": 91.69
+		},
+		{
+			"sections_instructor": "roman, leslie",
+			"sections_title": "tpcs sociol educ",
+			"minimum": 91.42
+		},
+		{
+			"sections_instructor": "shan, hongxia",
+			"sections_title": "qst, theor, mthd",
+			"minimum": 90.6
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "qst, theor, mthd",
+			"minimum": 90.6
+		},
+		{
+			"sections_instructor": "shan, hongxia",
+			"sections_title": "work & learning",
+			"minimum": 90.11
+		},
+		{
+			"sections_instructor": "roman, leslie",
+			"sections_title": "contxt ed policy",
+			"minimum": 92.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "contxt ed policy",
+			"minimum": 92.2
+		},
+		{
+			"sections_instructor": "shamsher, mohammed",
+			"sections_title": "ldr adm aim educ",
+			"minimum": 90.5
+		},
+		{
+			"sections_instructor": "aquash, mark",
+			"sections_title": "stdy educ organ",
+			"minimum": 91.09
+		},
+		{
+			"sections_instructor": "shamsher, mohammed",
+			"sections_title": "stdy educ organ",
+			"minimum": 90.42
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "stdy educ organ",
+			"minimum": 90.48
+		},
+		{
+			"sections_instructor": "mazawi, andre",
+			"sections_title": "stdy educ organ",
+			"minimum": 91.45
+		},
+		{
+			"sections_instructor": "poole, wendy",
+			"sections_title": "stdy educ organ",
+			"minimum": 90.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "env phil & educ",
+			"minimum": 92.83
+		},
+		{
+			"sections_instructor": "shamsher, mohammed",
+			"sections_title": "educ theories",
+			"minimum": 90.4
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "educ theories",
+			"minimum": 92.23
+		},
+		{
+			"sections_instructor": "rocha perkerwicz, samuel",
+			"sections_title": "educ theories",
+			"minimum": 94.06
+		},
+		{
+			"sections_instructor": "henry, annette",
+			"sections_title": "res mthd in educ",
+			"minimum": 94.75
+		},
+		{
+			"sections_instructor": "feng, francis",
+			"sections_title": "res mthd in educ",
+			"minimum": 93.7
+		},
+		{
+			"sections_instructor": "krug, don",
+			"sections_title": "res mthd in educ",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "res mthd in educ",
+			"minimum": 91.17
+		},
+		{
+			"sections_instructor": "mathison, sandra",
+			"sections_title": "res mthd in educ",
+			"minimum": 92.61
+		},
+		{
+			"sections_instructor": "ross, eddie wayne",
+			"sections_title": "res mthd in educ",
+			"minimum": 93.78
+		},
+		{
+			"sections_instructor": "scott, sandra",
+			"sections_title": "res mthd in educ",
+			"minimum": 93.77
+		},
+		{
+			"sections_instructor": "fatemi, sayyed mohsen",
+			"sections_title": "res mthd in educ",
+			"minimum": 92.44
+		},
+		{
+			"sections_instructor": "carter, john",
+			"sections_title": "res mthd in educ",
+			"minimum": 90.53
+		},
+		{
+			"sections_instructor": "carr, wendy;denizot, isabelle",
+			"sections_title": "res mthd in educ",
+			"minimum": 91.18
+		},
+		{
+			"sections_instructor": "bartosh, oksana",
+			"sections_title": "res mthd in educ",
+			"minimum": 90.93
+		},
+		{
+			"sections_instructor": "ahenakew, cash",
+			"sections_title": "res mthd in educ",
+			"minimum": 92.11
+		},
+		{
+			"sections_instructor": "morgan, tannis",
+			"sections_title": "res mthd in educ",
+			"minimum": 97.5
+		},
+		{
+			"sections_instructor": "renwick, kerry",
+			"sections_title": "res mthd in educ",
+			"minimum": 91.58
+		},
+		{
+			"sections_instructor": "adler, james douglas",
+			"sections_title": "res mthd in educ",
+			"minimum": 91.22
+		},
+		{
+			"sections_instructor": "adler, james douglas;scott, sandra",
+			"sections_title": "res mthd in educ",
+			"minimum": 95.02
+		},
+		{
+			"sections_instructor": "feng, francis;o'riley, patricia",
+			"sections_title": "res mthd in educ",
+			"minimum": 90.14
+		},
+		{
+			"sections_instructor": "feng, francis;scott, sandra",
+			"sections_title": "res mthd in educ",
+			"minimum": 90.91
+		},
+		{
+			"sections_instructor": "davis, brent",
+			"sections_title": "res mthd in educ",
+			"minimum": 91.22
+		},
+		{
+			"sections_instructor": "roman, leslie",
+			"sections_title": "",
+			"minimum": 93.6
+		},
+		{
+			"sections_instructor": "cretu, edmond",
+			"sections_title": "adv microsys des",
+			"minimum": 90.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv microsys des",
+			"minimum": 90.88
+		},
+		{
+			"sections_instructor": "lis, mieszko",
+			"sections_title": "adv comp archtct",
+			"minimum": 92.6
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv comp archtct",
+			"minimum": 92.6
+		},
+		{
+			"sections_instructor": "nojeh, alireza",
+			"sections_title": "nanosc model&sim",
+			"minimum": 92.03
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "nanosc model&sim",
+			"minimum": 92.03
+		},
+		{
+			"sections_instructor": "servati, peyman",
+			"sections_title": "grn nanoelec dev",
+			"minimum": 90.85
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "grn nanoelec dev",
+			"minimum": 90.85
+		},
+		{
+			"sections_instructor": "coria, lino",
+			"sections_title": "multimedia sys",
+			"minimum": 98.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "multimedia sys",
+			"minimum": 94.88
+		},
+		{
+			"sections_instructor": "nasiopoulos, panos",
+			"sections_title": "multimedia sys",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "jatskevich, juri",
+			"sections_title": "dyn mdl elec",
+			"minimum": 90.42
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dyn mdl elec",
+			"minimum": 90.42
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "power elec dsgn",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "dommel, hermann",
+			"sections_title": "power syst dynam",
+			"minimum": 91.9
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "power syst dynam",
+			"minimum": 91.9
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "network analysis",
+			"minimum": 90.54
+		},
+		{
+			"sections_instructor": "marti, jose",
+			"sections_title": "network analysis",
+			"minimum": 91.13
+		},
+		{
+			"sections_instructor": "krishnamurthy, vikram",
+			"sections_title": "stat sig proc",
+			"minimum": 90.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "stat sig proc",
+			"minimum": 90.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "comm networks",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "dumont, guy a",
+			"sections_title": "self-tuning ctrl",
+			"minimum": 91.15
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "self-tuning ctrl",
+			"minimum": 91.15
+		},
+		{
+			"sections_instructor": "walus, konrad",
+			"sections_title": "semicon thy appl",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "semicon thy appl",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "quinton, bradley",
+			"sections_title": "ad top vlsi desg",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ad top vlsi desg",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "wilton, steven",
+			"sections_title": "cad algrthm i cr",
+			"minimum": 92.82
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cad algrthm i cr",
+			"minimum": 93.12
+		},
+		{
+			"sections_instructor": "sarkaria, sarbjit",
+			"sections_title": "arch learn systs",
+			"minimum": 90.71
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "arch learn systs",
+			"minimum": 90.71
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "eng report",
+			"minimum": 91.16
+		},
+		{
+			"sections_instructor": "motavas, saloome",
+			"sections_title": "electronics lab",
+			"minimum": 93.91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "electronics lab",
+			"minimum": 93.91
+		},
+		{
+			"sections_instructor": "rohling, robert",
+			"sections_title": "tpcs biomed eng",
+			"minimum": 91.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tpcs biomed eng",
+			"minimum": 91.83
+		},
+		{
+			"sections_instructor": "mindell, randal",
+			"sections_title": "lab expl earth",
+			"minimum": 90.62
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "lab expl earth",
+			"minimum": 90.36
+		},
+		{
+			"sections_instructor": "hsieh, william",
+			"sections_title": "dta anl at,er&oc",
+			"minimum": 90.4
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dta anl at,er&oc",
+			"minimum": 90.08
+		},
+		{
+			"sections_instructor": "haber, eldad",
+			"sections_title": "num tec oc,at&er",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "num tec oc,at&er",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "balmforth, neil",
+			"sections_title": "adv geo fld dyn",
+			"minimum": 90.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv geo fld dyn",
+			"minimum": 90.2
+		},
+		{
+			"sections_instructor": "herrmann, felix",
+			"sections_title": "wavelets",
+			"minimum": 90.63
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "wavelets",
+			"minimum": 90.63
+		},
+		{
+			"sections_instructor": "groat, lee",
+			"sections_title": "adv mineralogy",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv mineralogy",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "gordon, terence;russell, james kelly",
+			"sections_title": "mth&mdl ptrl&gch",
+			"minimum": 92.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mth&mdl ptrl&gch",
+			"minimum": 92.75
+		},
+		{
+			"sections_instructor": "baker, shaun;kennedy, lori",
+			"sections_title": "mech nat defrmtn",
+			"minimum": 90.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mech nat defrmtn",
+			"minimum": 90.2
+		},
+		{
+			"sections_instructor": "hungr, oldrich",
+			"sections_title": "adv geotechnics",
+			"minimum": 93.47
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv geotechnics",
+			"minimum": 93.47
+		},
+		{
+			"sections_instructor": "mortensen, james;tba",
+			"sections_title": "expl methodology",
+			"minimum": 90.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "expl methodology",
+			"minimum": 90.69
+		},
+		{
+			"sections_instructor": "hart, craig;mortensen, james",
+			"sections_title": "expl methodology",
+			"minimum": 90.48
+		},
+		{
+			"sections_instructor": "mortensen, james;tosdal, richard",
+			"sections_title": "expl methodology",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "eberhardt, erik",
+			"sections_title": "adv rock engnrng",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv rock engnrng",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "russell, james kelly",
+			"sections_title": "adv volcanology",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv volcanology",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "mortensen, james",
+			"sections_title": "solid earth sci",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "solid earth sci",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "tosdal, richard",
+			"sections_title": "adv field earth",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv field earth",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "bostock, michael",
+			"sections_title": "mech erth quake",
+			"minimum": 91.13
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mech erth quake",
+			"minimum": 91.13
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "m.eng. grad papr",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "lo, chih shen",
+			"sections_title": "tch'g hghly able",
+			"minimum": 93.52
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tch'g hghly able",
+			"minimum": 92.44
+		},
+		{
+			"sections_instructor": "chartres, lynn",
+			"sections_title": "tch'g hghly able",
+			"minimum": 91.77
+		},
+		{
+			"sections_instructor": "porath, marion",
+			"sections_title": "tch'g hghly able",
+			"minimum": 96
+		},
+		{
+			"sections_instructor": "nicks, david",
+			"sections_title": "tch'g hghly able",
+			"minimum": 91.72
+		},
+		{
+			"sections_instructor": "stockman, james",
+			"sections_title": "intro excp child",
+			"minimum": 94.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intro excp child",
+			"minimum": 93.82
+		},
+		{
+			"sections_instructor": "jamieson, janet ruth",
+			"sections_title": "intro excp child",
+			"minimum": 91.67
+		},
+		{
+			"sections_instructor": "gaster, sean",
+			"sections_title": "intro excp child",
+			"minimum": 96.9
+		},
+		{
+			"sections_instructor": "romero, amber",
+			"sections_title": "intro excp child",
+			"minimum": 93.66
+		},
+		{
+			"sections_instructor": "yorke, erin",
+			"sections_title": "intro excp child",
+			"minimum": 91.18
+		},
+		{
+			"sections_instructor": "heikkila, mary",
+			"sections_title": "lrn'g disablties",
+			"minimum": 92.29
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "lrn'g disablties",
+			"minimum": 92.25
+		},
+		{
+			"sections_instructor": "turriff, wendy",
+			"sections_title": "lrn'g disablties",
+			"minimum": 91.95
+		},
+		{
+			"sections_instructor": "dowler, judith rosemary",
+			"sections_title": "lrn'g disablties",
+			"minimum": 91.63
+		},
+		{
+			"sections_instructor": "rathwell, david",
+			"sections_title": "incl bl vis-imp",
+			"minimum": 93.1
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "incl bl vis-imp",
+			"minimum": 93.1
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tchg st visl imp",
+			"minimum": 95.27
+		},
+		{
+			"sections_instructor": "wilk, diana",
+			"sections_title": "ed st dvl ds inc",
+			"minimum": 93.65
+		},
+		{
+			"sections_instructor": "el khatib, lara",
+			"sections_title": "ed st dvl ds inc",
+			"minimum": 92.9
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ed st dvl ds inc",
+			"minimum": 91.34
+		},
+		{
+			"sections_instructor": "kelty, jane",
+			"sections_title": "ed st dvl ds inc",
+			"minimum": 90.19
+		},
+		{
+			"sections_instructor": "el khatib, lara",
+			"sections_title": "typ atyp inf/ch",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "typ atyp inf/ch",
+			"minimum": 91.97
+		},
+		{
+			"sections_instructor": "cox, elizabeth;reiner, ann",
+			"sections_title": "typ atyp inf/ch",
+			"minimum": 90.79
+		},
+		{
+			"sections_instructor": "lee, hyekyung",
+			"sections_title": "ed prg hghly abl",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "porath, marion",
+			"sections_title": "ed prg hghly abl",
+			"minimum": 95.22
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ed prg hghly abl",
+			"minimum": 92.45
+		},
+		{
+			"sections_instructor": "chartres, lynn",
+			"sections_title": "ed prg hghly abl",
+			"minimum": 92.21
+		},
+		{
+			"sections_instructor": "mceachern hughes, tammy",
+			"sections_title": "augmt&alt comm",
+			"minimum": 92.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "augmt&alt comm",
+			"minimum": 93.05
+		},
+		{
+			"sections_instructor": "levinson, tami",
+			"sections_title": "tech for vis imp",
+			"minimum": 95.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tech for vis imp",
+			"minimum": 95.67
+		},
+		{
+			"sections_instructor": "ford, laurie",
+			"sections_title": "assess lrn diffi",
+			"minimum": 90.94
+		},
+		{
+			"sections_instructor": "malone, sharon",
+			"sections_title": "assess lrn diffi",
+			"minimum": 91.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "assess lrn diffi",
+			"minimum": 93.72
+		},
+		{
+			"sections_instructor": "cole, kenneth",
+			"sections_title": "assess lrn diffi",
+			"minimum": 97.57
+		},
+		{
+			"sections_instructor": "mitchell, allison rugh",
+			"sections_title": "assess lrn diffi",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "white, aaron",
+			"sections_title": "assess lrn diffi",
+			"minimum": 90.25
+		},
+		{
+			"sections_instructor": "amaral, deborah",
+			"sections_title": "assess lrn diffi",
+			"minimum": 94.14
+		},
+		{
+			"sections_instructor": "fusaro, nicole",
+			"sections_title": "prg child sp lrn",
+			"minimum": 90.38
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prg child sp lrn",
+			"minimum": 92.39
+		},
+		{
+			"sections_instructor": "macneil, kimberley",
+			"sections_title": "prg child sp lrn",
+			"minimum": 91.33
+		},
+		{
+			"sections_instructor": "heikkila, mary",
+			"sections_title": "prg child sp lrn",
+			"minimum": 94.86
+		},
+		{
+			"sections_instructor": "ervin, ruth",
+			"sections_title": "classroom mgmt",
+			"minimum": 94.97
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "classroom mgmt",
+			"minimum": 92.79
+		},
+		{
+			"sections_instructor": "both, pauline;ervin, ruth",
+			"sections_title": "classroom mgmt",
+			"minimum": 94.88
+		},
+		{
+			"sections_instructor": "both, pauline",
+			"sections_title": "classroom mgmt",
+			"minimum": 90.54
+		},
+		{
+			"sections_instructor": "smith, gillian",
+			"sections_title": "classroom mgmt",
+			"minimum": 92.59
+		},
+		{
+			"sections_instructor": "yorke, erin",
+			"sections_title": "classroom mgmt",
+			"minimum": 94.75
+		},
+		{
+			"sections_instructor": "both, pauline;romero, amber",
+			"sections_title": "classroom mgmt",
+			"minimum": 91.83
+		},
+		{
+			"sections_instructor": "romero, amber",
+			"sections_title": "classroom mgmt",
+			"minimum": 92.31
+		},
+		{
+			"sections_instructor": "both, pauline;faber, shawna",
+			"sections_title": "classroom mgmt",
+			"minimum": 91.07
+		},
+		{
+			"sections_instructor": "champion, kathleen",
+			"sections_title": "surv bhvr dis ch",
+			"minimum": 92.94
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "surv bhvr dis ch",
+			"minimum": 92.78
+		},
+		{
+			"sections_instructor": "white, aaron",
+			"sections_title": "surv bhvr dis ch",
+			"minimum": 93.42
+		},
+		{
+			"sections_instructor": "white, aaron",
+			"sections_title": "intrv ch&ad bh d",
+			"minimum": 92.54
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intrv ch&ad bh d",
+			"minimum": 92.54
+		},
+		{
+			"sections_instructor": "grow, laura",
+			"sections_title": "educ stds autism",
+			"minimum": 97.1
+		},
+		{
+			"sections_instructor": "el khatib, lara",
+			"sections_title": "educ stds autism",
+			"minimum": 91.18
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "educ stds autism",
+			"minimum": 93.61
+		},
+		{
+			"sections_instructor": "mirenda, pat",
+			"sections_title": "educ stds autism",
+			"minimum": 91.57
+		},
+		{
+			"sections_instructor": "wilk, diana",
+			"sections_title": "educ stds autism",
+			"minimum": 97.41
+		},
+		{
+			"sections_instructor": "fossett, brenda",
+			"sections_title": "educ stds autism",
+			"minimum": 90.57
+		},
+		{
+			"sections_instructor": "stock, richard",
+			"sections_title": "educ stds autism",
+			"minimum": 94.4
+		},
+		{
+			"sections_instructor": "sandilands, dallie",
+			"sections_title": "intro rsrch educ",
+			"minimum": 90.32
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intro rsrch educ",
+			"minimum": 90.32
+		},
+		{
+			"sections_instructor": "rusticus, shayna",
+			"sections_title": "intr stat rs edu",
+			"minimum": 90.93
+		},
+		{
+			"sections_instructor": "wu, amery",
+			"sections_title": "intr stat rs edu",
+			"minimum": 90.18
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intr stat rs edu",
+			"minimum": 91.33
+		},
+		{
+			"sections_instructor": "launeanu, mihaela",
+			"sections_title": "intr stat rs edu",
+			"minimum": 92.22
+		},
+		{
+			"sections_instructor": "chan, eric",
+			"sections_title": "intr stat rs edu",
+			"minimum": 91.46
+		},
+		{
+			"sections_instructor": "kishor, nand;launeanu, mihaela",
+			"sections_title": "intr stat rs edu",
+			"minimum": 91.56
+		},
+		{
+			"sections_instructor": "kishor, nand",
+			"sections_title": "intr stat rs edu",
+			"minimum": 95.11
+		},
+		{
+			"sections_instructor": "weber, barbara",
+			"sections_title": "hn dev, lrn, cul",
+			"minimum": 91.62
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hn dev, lrn, cul",
+			"minimum": 91.52
+		},
+		{
+			"sections_instructor": "faber, shawna",
+			"sections_title": "hn dev, lrn, cul",
+			"minimum": 91.85
+		},
+		{
+			"sections_instructor": "guhn, martin",
+			"sections_title": "hn dev, lrn, cul",
+			"minimum": 92.16
+		},
+		{
+			"sections_instructor": "perry, nancy",
+			"sections_title": "hn dev, lrn, cul",
+			"minimum": 91.79
+		},
+		{
+			"sections_instructor": "perry, nancy",
+			"sections_title": "cog lang proc ed",
+			"minimum": 91.82
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cog lang proc ed",
+			"minimum": 91.82
+		},
+		{
+			"sections_instructor": "konishi, chiaki",
+			"sections_title": "hn dev: inf-adlt",
+			"minimum": 90.46
+		},
+		{
+			"sections_instructor": "porath, marion",
+			"sections_title": "hn dev: inf-adlt",
+			"minimum": 94.55
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hn dev: inf-adlt",
+			"minimum": 91.65
+		},
+		{
+			"sections_instructor": "darwich, lina",
+			"sections_title": "hn dev: inf-adlt",
+			"minimum": 91.31
+		},
+		{
+			"sections_instructor": "miller, lynn delaine",
+			"sections_title": "ch&ad psyco-path",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ch&ad psyco-path",
+			"minimum": 91.02
+		},
+		{
+			"sections_instructor": "lacroix, serge",
+			"sections_title": "ch&ad psyco-path",
+			"minimum": 90.27
+		},
+		{
+			"sections_instructor": "young, tigerson",
+			"sections_title": "ch&ad psyco-path",
+			"minimum": 90.27
+		},
+		{
+			"sections_instructor": "fossett, brenda",
+			"sections_title": "crit spec ed",
+			"minimum": 92.13
+		},
+		{
+			"sections_instructor": "jordan, elizabeth",
+			"sections_title": "crit spec ed",
+			"minimum": 92.88
+		},
+		{
+			"sections_instructor": "champion, kathleen",
+			"sections_title": "crit spec ed",
+			"minimum": 92.87
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "crit spec ed",
+			"minimum": 93.08
+		},
+		{
+			"sections_instructor": "cannon, joanna",
+			"sections_title": "crit spec ed",
+			"minimum": 93.74
+		},
+		{
+			"sections_instructor": "curle, deirdre;jordan, elizabeth",
+			"sections_title": "crit spec ed",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "curle, deirdre;jordan, elizabeth;norman, nancy",
+			"sections_title": "crit spec ed",
+			"minimum": 93.94
+		},
+		{
+			"sections_instructor": "porath, marion",
+			"sections_title": "able&creatv lrnr",
+			"minimum": 95.04
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "able&creatv lrnr",
+			"minimum": 94.45
+		},
+		{
+			"sections_instructor": "lauridsen, kristi",
+			"sections_title": "able&creatv lrnr",
+			"minimum": 93.15
+		},
+		{
+			"sections_instructor": "cannon, joanna",
+			"sections_title": "dev el sk df&hrd",
+			"minimum": 98.45
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dev el sk df&hrd",
+			"minimum": 98.45
+		},
+		{
+			"sections_instructor": "karres, debora",
+			"sections_title": "cur dev e df&hrd",
+			"minimum": 94.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cur dev e df&hrd",
+			"minimum": 94.1
+		},
+		{
+			"sections_instructor": "cannon, joanna",
+			"sections_title": "cur dev e df&hrd",
+			"minimum": 91.99
+		},
+		{
+			"sections_instructor": "russell, debra",
+			"sections_title": "std in sign lang",
+			"minimum": 93.03
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "std in sign lang",
+			"minimum": 93.03
+		},
+		{
+			"sections_instructor": "mcquarrie, maureen",
+			"sections_title": "specific lrn dis",
+			"minimum": 95.58
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "specific lrn dis",
+			"minimum": 92.59
+		},
+		{
+			"sections_instructor": "perry, nancy",
+			"sections_title": "specific lrn dis",
+			"minimum": 90.98
+		},
+		{
+			"sections_instructor": "heikkila, mary",
+			"sections_title": "specific lrn dis",
+			"minimum": 92.03
+		},
+		{
+			"sections_instructor": "andreou, theresa",
+			"sections_title": "specific lrn dis",
+			"minimum": 93.56
+		},
+		{
+			"sections_instructor": "reid, gavin",
+			"sections_title": "specific lrn dis",
+			"minimum": 93.94
+		},
+		{
+			"sections_instructor": "kishor, nand",
+			"sections_title": "basic princ meas",
+			"minimum": 93.41
+		},
+		{
+			"sections_instructor": "wu, amery",
+			"sections_title": "basic princ meas",
+			"minimum": 90.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "basic princ meas",
+			"minimum": 92.24
+		},
+		{
+			"sections_instructor": "hubley, anita",
+			"sections_title": "basic princ meas",
+			"minimum": 90.31
+		},
+		{
+			"sections_instructor": "chan, eric",
+			"sections_title": "basic princ meas",
+			"minimum": 94.28
+		},
+		{
+			"sections_instructor": "ercikan, kadriye",
+			"sections_title": "basic princ meas",
+			"minimum": 94.5
+		},
+		{
+			"sections_instructor": "kishor, nand",
+			"sections_title": "dev scale&measur",
+			"minimum": 93.86
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dev scale&measur",
+			"minimum": 92.84
+		},
+		{
+			"sections_instructor": "hubley, anita",
+			"sections_title": "dev scale&measur",
+			"minimum": 91.82
+		},
+		{
+			"sections_instructor": "hubley, anita",
+			"sections_title": "test constructio",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "test constructio",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "mercer, sterett",
+			"sections_title": "curric as&interv",
+			"minimum": 92.71
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "curric as&interv",
+			"minimum": 91.85
+		},
+		{
+			"sections_instructor": "mcintosh, kent",
+			"sections_title": "curric as&interv",
+			"minimum": 91.36
+		},
+		{
+			"sections_instructor": "weber, rachel",
+			"sections_title": "acad assess schl",
+			"minimum": 92.47
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "acad assess schl",
+			"minimum": 93.9
+		},
+		{
+			"sections_instructor": "hymel, shelley",
+			"sections_title": "acad assess schl",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "lacroix, serge",
+			"sections_title": "acad assess schl",
+			"minimum": 90.5
+		},
+		{
+			"sections_instructor": "amaral, deborah",
+			"sections_title": "acad assess schl",
+			"minimum": 94.33
+		},
+		{
+			"sections_instructor": "amaral, deborah;ford, laurie",
+			"sections_title": "acad assess schl",
+			"minimum": 97.39
+		},
+		{
+			"sections_instructor": "missiaen, sharon anne",
+			"sections_title": "acad assess schl",
+			"minimum": 94.5
+		},
+		{
+			"sections_instructor": "weber, rachel",
+			"sections_title": "socl&emtl assess",
+			"minimum": 92.85
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "socl&emtl assess",
+			"minimum": 92.27
+		},
+		{
+			"sections_instructor": "hymel, shelley",
+			"sections_title": "socl&emtl assess",
+			"minimum": 92.33
+		},
+		{
+			"sections_instructor": "motl, thomas",
+			"sections_title": "socl&emtl assess",
+			"minimum": 92.83
+		},
+		{
+			"sections_instructor": "miller, lynn delaine",
+			"sections_title": "socl&emtl assess",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "amaral, deborah",
+			"sections_title": "socl&emtl assess",
+			"minimum": 92.9
+		},
+		{
+			"sections_instructor": "amaral, deborah;missiaen, sharon anne",
+			"sections_title": "socl&emtl assess",
+			"minimum": 92.19
+		},
+		{
+			"sections_instructor": "missiaen, sharon anne",
+			"sections_title": "socl&emtl assess",
+			"minimum": 93.08
+		},
+		{
+			"sections_instructor": "zebehazy, kim",
+			"sections_title": "ind skl vis imp",
+			"minimum": 91.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ind skl vis imp",
+			"minimum": 92.78
+		},
+		{
+			"sections_instructor": "levinson, tami",
+			"sections_title": "ind skl vis imp",
+			"minimum": 94.67
+		},
+		{
+			"sections_instructor": "grow, laura",
+			"sections_title": "sem in autism",
+			"minimum": 94.45
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sem in autism",
+			"minimum": 91.57
+		},
+		{
+			"sections_instructor": "lacroix, serge",
+			"sections_title": "prof,eth&lgl iss",
+			"minimum": 92.03
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prof,eth&lgl iss",
+			"minimum": 92.61
+		},
+		{
+			"sections_instructor": "mckee, william",
+			"sections_title": "prof,eth&lgl iss",
+			"minimum": 93.19
+		},
+		{
+			"sections_instructor": "ford, laurie",
+			"sections_title": "thy cognt assess",
+			"minimum": 92.54
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "thy cognt assess",
+			"minimum": 92.93
+		},
+		{
+			"sections_instructor": "robinson, georgina",
+			"sections_title": "thy cognt assess",
+			"minimum": 92.43
+		},
+		{
+			"sections_instructor": "wormeli, ted",
+			"sections_title": "thy cognt assess",
+			"minimum": 93.33
+		},
+		{
+			"sections_instructor": "ford, laurie;robinson, georgina",
+			"sections_title": "thy cognt assess",
+			"minimum": 93.88
+		},
+		{
+			"sections_instructor": "weber, rachel",
+			"sections_title": "dev neuropsych",
+			"minimum": 94.34
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dev neuropsych",
+			"minimum": 94.34
+		},
+		{
+			"sections_instructor": "jhangiani, rajiv",
+			"sections_title": "soc-psych fndtns",
+			"minimum": 92.22
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "soc-psych fndtns",
+			"minimum": 92.45
+		},
+		{
+			"sections_instructor": "mercer, sterett",
+			"sections_title": "soc-psych fndtns",
+			"minimum": 92.92
+		},
+		{
+			"sections_instructor": "grow, laura",
+			"sections_title": "prin behav anlys",
+			"minimum": 93.78
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prin behav anlys",
+			"minimum": 93.72
+		},
+		{
+			"sections_instructor": "mirenda, pat",
+			"sections_title": "inst mthd chalng",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "inst mthd chalng",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "perry, nancy",
+			"sections_title": "motivation educ",
+			"minimum": 91.3
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "motivation educ",
+			"minimum": 91.3
+		},
+		{
+			"sections_instructor": "vadeboncoeur, jennifer",
+			"sections_title": "discourse & talk",
+			"minimum": 92.07
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "discourse & talk",
+			"minimum": 92.07
+		},
+		{
+			"sections_instructor": "mathison, sandra",
+			"sections_title": "thry&prc prg evl",
+			"minimum": 92.63
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "thry&prc prg evl",
+			"minimum": 92.63
+		},
+		{
+			"sections_instructor": "kishor, nand",
+			"sections_title": "exp des anl ed",
+			"minimum": 93.26
+		},
+		{
+			"sections_instructor": "rusticus, shayna",
+			"sections_title": "exp des anl ed",
+			"minimum": 90.09
+		},
+		{
+			"sections_instructor": "wu, amery",
+			"sections_title": "exp des anl ed",
+			"minimum": 94.51
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "exp des anl ed",
+			"minimum": 93.24
+		},
+		{
+			"sections_instructor": "zumbo, bruno",
+			"sections_title": "exp des anl ed",
+			"minimum": 93.68
+		},
+		{
+			"sections_instructor": "chan, eric",
+			"sections_title": "exp des anl ed",
+			"minimum": 92.66
+		},
+		{
+			"sections_instructor": "motl, thomas",
+			"sections_title": "exp des anl ed",
+			"minimum": 92.83
+		},
+		{
+			"sections_instructor": "grow, laura",
+			"sections_title": "dsgn&anl smp&sub",
+			"minimum": 93.59
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dsgn&anl smp&sub",
+			"minimum": 93.59
+		},
+		{
+			"sections_instructor": "kishor, nand",
+			"sections_title": "mt-anl qnt rs sy",
+			"minimum": 94.3
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mt-anl qnt rs sy",
+			"minimum": 94.3
+		},
+		{
+			"sections_instructor": "mathison, sandra",
+			"sections_title": "qlt rsrch mthd",
+			"minimum": 91.03
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "qlt rsrch mthd",
+			"minimum": 90.2
+		},
+		{
+			"sections_instructor": "jordan, sharalyn",
+			"sections_title": "qlt rsrch mthd",
+			"minimum": 91.38
+		},
+		{
+			"sections_instructor": "mathison, sandra",
+			"sections_title": "qlt mthd ed psy",
+			"minimum": 91.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "qlt mthd ed psy",
+			"minimum": 90.36
+		},
+		{
+			"sections_instructor": "kishor, nand",
+			"sections_title": "cor des ed res",
+			"minimum": 93.64
+		},
+		{
+			"sections_instructor": "wu, amery",
+			"sections_title": "cor des ed res",
+			"minimum": 93.35
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cor des ed res",
+			"minimum": 93.31
+		},
+		{
+			"sections_instructor": "vadeboncoeur, jennifer",
+			"sections_title": "coll&uni teachng",
+			"minimum": 94.02
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "coll&uni teachng",
+			"minimum": 93.19
+		},
+		{
+			"sections_instructor": "smith, veronica",
+			"sections_title": "coll&uni teachng",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "faber, shawna",
+			"sections_title": "coll&uni teachng",
+			"minimum": 91.78
+		},
+		{
+			"sections_instructor": "weber, barbara",
+			"sections_title": "coll&uni teachng",
+			"minimum": 93.91
+		},
+		{
+			"sections_instructor": "porath, marion",
+			"sections_title": "coll&uni teachng",
+			"minimum": 97.67
+		},
+		{
+			"sections_instructor": "zumbo, bruno",
+			"sections_title": "mult des anal rs",
+			"minimum": 93.19
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mult des anal rs",
+			"minimum": 93.19
+		},
+		{
+			"sections_instructor": "zumbo, bruno",
+			"sections_title": "hier lin modelng",
+			"minimum": 93.52
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hier lin modelng",
+			"minimum": 93.52
+		},
+		{
+			"sections_instructor": "ercikan, kadriye",
+			"sections_title": "item respns thry",
+			"minimum": 91.73
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "item respns thry",
+			"minimum": 91.73
+		},
+		{
+			"sections_instructor": "carey, stephen",
+			"sections_title": "res meth educ",
+			"minimum": 91.7
+		},
+		{
+			"sections_instructor": "mccracken, janet",
+			"sections_title": "res meth educ",
+			"minimum": 90.55
+		},
+		{
+			"sections_instructor": "cho, sunah",
+			"sections_title": "res meth educ",
+			"minimum": 92.6
+		},
+		{
+			"sections_instructor": "falk, clifford",
+			"sections_title": "res meth educ",
+			"minimum": 90.31
+		},
+		{
+			"sections_instructor": "ercikan, kadriye",
+			"sections_title": "res meth educ",
+			"minimum": 90.6
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "res meth educ",
+			"minimum": 91.62
+		},
+		{
+			"sections_instructor": "bartosh, oksana",
+			"sections_title": "res meth educ",
+			"minimum": 90.31
+		},
+		{
+			"sections_instructor": "janes, diane",
+			"sections_title": "des tech",
+			"minimum": 92.06
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "des tech",
+			"minimum": 91.38
+		},
+		{
+			"sections_instructor": "miller, jeffrey",
+			"sections_title": "des tech",
+			"minimum": 90.15
+		},
+		{
+			"sections_instructor": "hauge, chelsey",
+			"sections_title": "des tech",
+			"minimum": 91.58
+		},
+		{
+			"sections_instructor": "bryson, mary",
+			"sections_title": "des tech",
+			"minimum": 92.45
+		},
+		{
+			"sections_instructor": "feng, francis",
+			"sections_title": "found ed tech",
+			"minimum": 91.41
+		},
+		{
+			"sections_instructor": "alam, matiul",
+			"sections_title": "found ed tech",
+			"minimum": 91.41
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "found ed tech",
+			"minimum": 91.39
+		},
+		{
+			"sections_instructor": "petrina, stephen",
+			"sections_title": "found ed tech",
+			"minimum": 91.78
+		},
+		{
+			"sections_instructor": "wang, yifei",
+			"sections_title": "found ed tech",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "falk, clifford",
+			"sections_title": "appl lear theor",
+			"minimum": 90.3
+		},
+		{
+			"sections_instructor": "law, danielle m",
+			"sections_title": "appl lear theor",
+			"minimum": 91.6
+		},
+		{
+			"sections_instructor": "cho, sunah",
+			"sections_title": "appl lear theor",
+			"minimum": 91.08
+		},
+		{
+			"sections_instructor": "mccracken, janet",
+			"sections_title": "appl lear theor",
+			"minimum": 91.08
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "appl lear theor",
+			"minimum": 90.2
+		},
+		{
+			"sections_instructor": "marker, michael",
+			"sections_title": "indig, tech&ed",
+			"minimum": 93.27
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "indig, tech&ed",
+			"minimum": 93.68
+		},
+		{
+			"sections_instructor": "janes, diane",
+			"sections_title": "constr strat",
+			"minimum": 91.74
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "constr strat",
+			"minimum": 91.45
+		},
+		{
+			"sections_instructor": "feng, francis",
+			"sections_title": "curric issu",
+			"minimum": 92.48
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "curric issu",
+			"minimum": 92.31
+		},
+		{
+			"sections_instructor": "petrina, stephen",
+			"sections_title": "curric issu",
+			"minimum": 95.63
+		},
+		{
+			"sections_instructor": "de cosson, alexander",
+			"sections_title": "tech arts hum",
+			"minimum": 92.09
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tech arts hum",
+			"minimum": 91.89
+		},
+		{
+			"sections_instructor": "milner-bolotin, marina",
+			"sections_title": "tech math sci",
+			"minimum": 94.21
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tech math sci",
+			"minimum": 94.21
+		},
+		{
+			"sections_instructor": "van enk, anneke",
+			"sections_title": "text tech",
+			"minimum": 90.89
+		},
+		{
+			"sections_instructor": "lamb, brian",
+			"sections_title": "text tech",
+			"minimum": 90.27
+		},
+		{
+			"sections_instructor": "pena alonso, ernesto",
+			"sections_title": "text tech",
+			"minimum": 90.57
+		},
+		{
+			"sections_instructor": "dobson, teresa",
+			"sections_title": "text tech",
+			"minimum": 90.5
+		},
+		{
+			"sections_instructor": "miller, jeffrey",
+			"sections_title": "text tech",
+			"minimum": 90.3
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "text tech",
+			"minimum": 90.7
+		},
+		{
+			"sections_instructor": "wenzek, rob",
+			"sections_title": "mo pict prod i",
+			"minimum": 96.4
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mo pict prod i",
+			"minimum": 96.4
+		},
+		{
+			"sections_instructor": "martell, steve",
+			"sections_title": "fisheries mngmt",
+			"minimum": 94
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fisheries mngmt",
+			"minimum": 94
+		},
+		{
+			"sections_instructor": "martell, steve",
+			"sections_title": "quant an fish i",
+			"minimum": 90.3
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "quant an fish i",
+			"minimum": 90.58
+		},
+		{
+			"sections_instructor": "sumaila, ussif rashid",
+			"sections_title": "fsh econ & mgmnt",
+			"minimum": 91.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fsh econ & mgmnt",
+			"minimum": 91.14
+		},
+		{
+			"sections_instructor": "mcallister, murdoch",
+			"sections_title": "bayesn dcsn anl",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "bayesn dcsn anl",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "food theor app",
+			"minimum": 91.56
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "int nut fld stdy",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "top food nu hea",
+			"minimum": 91.36
+		},
+		{
+			"sections_instructor": "ross, nancy",
+			"sections_title": "hazard anal food",
+			"minimum": 90.68
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hazard anal food",
+			"minimum": 90.68
+		},
+		{
+			"sections_instructor": "bendickson, dennis",
+			"sections_title": "forest oper's i",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "bendickson, dennis",
+			"sections_title": "econ, cont, fina",
+			"minimum": 90.44
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "econ, cont, fina",
+			"minimum": 90.44
+		},
+		{
+			"sections_instructor": "mitchell, stephen jarvis",
+			"sections_title": "int field school",
+			"minimum": 90.89
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "int field school",
+			"minimum": 90.89
+		},
+		{
+			"sections_instructor": "simard, suzanne",
+			"sections_title": "complex adapt sy",
+			"minimum": 90.13
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "complex adapt sy",
+			"minimum": 90.13
+		},
+		{
+			"sections_instructor": "bohlmann, jorg",
+			"sections_title": "ecol plnt bioch",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ecol plnt bioch",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "trosper, ronald",
+			"sections_title": "ind peo frst lnd",
+			"minimum": 92.22
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ind peo frst lnd",
+			"minimum": 92.22
+		},
+		{
+			"sections_instructor": "nelson, harry william",
+			"sections_title": "natural res econ",
+			"minimum": 90.18
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "natural res econ",
+			"minimum": 90.18
+		},
+		{
+			"sections_instructor": "watts, susan",
+			"sections_title": "tech comm skills",
+			"minimum": 91.26
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tech comm skills",
+			"minimum": 90.28
+		},
+		{
+			"sections_instructor": "watts, susan",
+			"sections_title": "tec comm skls ii",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tec comm skls ii",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "kozak, robert antal;panwar, rajat",
+			"sections_title": "frst busn enterp",
+			"minimum": 92.27
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "frst busn enterp",
+			"minimum": 92.27
+		},
+		{
+			"sections_instructor": "timko, joleen",
+			"sections_title": "ds intl forstry",
+			"minimum": 96.36
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ds intl forstry",
+			"minimum": 96.36
+		},
+		{
+			"sections_instructor": "alila, younes",
+			"sections_title": "stat mth hydrlgy",
+			"minimum": 91.17
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "stat mth hydrlgy",
+			"minimum": 91.17
+		},
+		{
+			"sections_instructor": "frackman, kyle",
+			"sections_title": "cultural studies",
+			"minimum": 92.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cultural studies",
+			"minimum": 92.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tops public plcy",
+			"minimum": 93.04
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "adv gsat concept",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv gsat concept",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "h gwaii cse stdy",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "frst ntns rsorcs",
+			"minimum": 94.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "frst ntns rsorcs",
+			"minimum": 94.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "coast terr esyst",
+			"minimum": 90.48
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "islnd wild mgmt",
+			"minimum": 94.32
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "islnd wild mgmt",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "eco-based mgmt",
+			"minimum": 91.22
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "eco-based mgmt",
+			"minimum": 93.07
+		},
+		{
+			"sections_instructor": "hines, naseem",
+			"sections_title": "intr hindi-urdu",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "sinha, srija",
+			"sections_title": "intr hindi-urdu",
+			"minimum": 93.22
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intr hindi-urdu",
+			"minimum": 93.22
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "masters thesis",
+			"minimum": 92.01
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cur iss ntr&dis",
+			"minimum": 91.33
+		},
+		{
+			"sections_instructor": "evans, robert james",
+			"sections_title": "size of things",
+			"minimum": 90.44
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "size of things",
+			"minimum": 90.44
+		},
+		{
+			"sections_instructor": "boccassini, daniela",
+			"sections_title": "dante's div com",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dante's div com",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "benimeo, maria",
+			"sections_title": "ital lit cult",
+			"minimum": 92.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ital lit cult",
+			"minimum": 92.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mvmt exp yg chld",
+			"minimum": 91.07
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "leis & disbl prs",
+			"minimum": 91.7
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "exer physolgy ii",
+			"minimum": 90.19
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "pln pe,sp&ex prg",
+			"minimum": 91.95
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prev spts inj i",
+			"minimum": 93.94
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "chrn hlth iss",
+			"minimum": 90.68
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prev spts inj ii",
+			"minimum": 90.7
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "kin project",
+			"minimum": 92.37
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "spec tpcs kin",
+			"minimum": 92.56
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "bioenrgtc ph act",
+			"minimum": 91.37
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "py-sc asp ph act",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "phyl asp phy act",
+			"minimum": 95.07
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sem hum mtr perf",
+			"minimum": 91.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "res mthds kin",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "coaching effctv",
+			"minimum": 94.92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "graduating paper",
+			"minimum": 90.9
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dir fld st sp&ph",
+			"minimum": 90.88
+		},
+		{
+			"sections_instructor": "dunster, katherine",
+			"sections_title": "landsc plan&mgmt",
+			"minimum": 92.07
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "landsc plan&mgmt",
+			"minimum": 92.07
+		},
+		{
+			"sections_instructor": "girling, cynthia",
+			"sections_title": "prof prct larc",
+			"minimum": 92.8
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prof prct larc",
+			"minimum": 92.8
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dig comm&tpcs ag",
+			"minimum": 90.83
+		},
+		{
+			"sections_instructor": "de groot, joanne",
+			"sections_title": "select libr res",
+			"minimum": 91.26
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "select libr res",
+			"minimum": 91.26
+		},
+		{
+			"sections_instructor": "norrie, cathy",
+			"sections_title": "org lrn res",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "org lrn res",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "mueller, aaron",
+			"sections_title": "info services i",
+			"minimum": 90.22
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "info services i",
+			"minimum": 90.2
+		},
+		{
+			"sections_instructor": "letain, anne",
+			"sections_title": "info services i",
+			"minimum": 92.26
+		},
+		{
+			"sections_instructor": "prendergast, teresa",
+			"sections_title": "serv for chld",
+			"minimum": 91.63
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "serv for chld",
+			"minimum": 91.63
+		},
+		{
+			"sections_instructor": "arias hernandez, richard",
+			"sections_title": "database design",
+			"minimum": 91.23
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "database design",
+			"minimum": 91.23
+		},
+		{
+			"sections_instructor": "farrell, adam",
+			"sections_title": "acad libraries",
+			"minimum": 96.1
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "acad libraries",
+			"minimum": 96.1
+		},
+		{
+			"sections_instructor": "arias hernandez, richard",
+			"sections_title": "dgtl libraries",
+			"minimum": 91.24
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dgtl libraries",
+			"minimum": 91.24
+		},
+		{
+			"sections_instructor": "arias hernandez, richard",
+			"sections_title": "dgtl img & text",
+			"minimum": 91.17
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dgtl img & text",
+			"minimum": 91.17
+		},
+		{
+			"sections_instructor": "matthewson, lisa",
+			"sections_title": "sem theor",
+			"minimum": 92.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sem theor",
+			"minimum": 92.25
+		},
+		{
+			"sections_instructor": "delvecchio, jennifer",
+			"sections_title": "intr tch ch lit",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "streelasky, jodi",
+			"sections_title": "t & l kind & prm",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "t & l kind & prm",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "greig, linda elizabeth",
+			"sections_title": "sch lrc prog",
+			"minimum": 91.53
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sch lrc prog",
+			"minimum": 91.53
+		},
+		{
+			"sections_instructor": "ekdahl, moira",
+			"sections_title": "resource-bsd tch",
+			"minimum": 91.08
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "resource-bsd tch",
+			"minimum": 91.08
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "2nd lang assess: c&e app",
+			"minimum": 91.2
+		},
+		{
+			"sections_instructor": "anderson, jim",
+			"sections_title": "thr lng&lit rsrc",
+			"minimum": 90.3
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "thr lng&lit rsrc",
+			"minimum": 91.75
+		},
+		{
+			"sections_instructor": "rogers, theresa",
+			"sections_title": "doctoral seminar",
+			"minimum": 90.1
+		},
+		{
+			"sections_instructor": "li, guofang",
+			"sections_title": "thr lng&lit rsrc",
+			"minimum": 93.2
+		},
+		{
+			"sections_instructor": "duff, patricia",
+			"sections_title": "crt anly iss&mth",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "crt anly iss&mth",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mltvar&vctr calc",
+			"minimum": 90.25
+		},
+		{
+			"sections_instructor": "zhao, mingfeng",
+			"sections_title": "ord diff equtns",
+			"minimum": 91.1
+		},
+		{
+			"sections_instructor": "khosravi, mahta",
+			"sections_title": "real analysis i",
+			"minimum": 90.57
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "real analysis i",
+			"minimum": 90.57
+		},
+		{
+			"sections_instructor": "magyar, akos",
+			"sections_title": "real analysis ii",
+			"minimum": 91.38
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "real analysis ii",
+			"minimum": 91.38
+		},
+		{
+			"sections_instructor": "fraser, ailana",
+			"sections_title": "intr mod diff ge",
+			"minimum": 91.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intr mod diff ge",
+			"minimum": 90.81
+		},
+		{
+			"sections_instructor": "chen, jingyi",
+			"sections_title": "intr mod diff ge",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "pramanik, malabika",
+			"sections_title": "complex analysis",
+			"minimum": 90.43
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "complex analysis",
+			"minimum": 90.43
+		},
+		{
+			"sections_instructor": "karu, kalle",
+			"sections_title": "algebra i",
+			"minimum": 92.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "algebra i",
+			"minimum": 92.2
+		},
+		{
+			"sections_instructor": "karu, kalle",
+			"sections_title": "algebra ii",
+			"minimum": 96.44
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "algebra ii",
+			"minimum": 94.44
+		},
+		{
+			"sections_instructor": "behrend, kai",
+			"sections_title": "algebra ii",
+			"minimum": 92.2
+		},
+		{
+			"sections_instructor": "gordon, julia yulia",
+			"sections_title": "algebra ii",
+			"minimum": 94.67
+		},
+		{
+			"sections_instructor": "solymosi, jozsef",
+			"sections_title": "discrete math",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "discrete math",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "perkins, edwin",
+			"sections_title": "meas thry&integr",
+			"minimum": 92.63
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "meas thry&integr",
+			"minimum": 92.63
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "complex analy i",
+			"minimum": 92.4
+		},
+		{
+			"sections_instructor": "pramanik, malabika",
+			"sections_title": "complex analy",
+			"minimum": 93.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "complex analy",
+			"minimum": 92.69
+		},
+		{
+			"sections_instructor": "magyar, akos",
+			"sections_title": "complex analy",
+			"minimum": 93.5
+		},
+		{
+			"sections_instructor": "lamoureux, michael",
+			"sections_title": "complex analy",
+			"minimum": 91.38
+		},
+		{
+			"sections_instructor": "laba, izabella",
+			"sections_title": "functional analy",
+			"minimum": 93.6
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "functional analy",
+			"minimum": 93.09
+		},
+		{
+			"sections_instructor": "perkins, edwin",
+			"sections_title": "functional analy",
+			"minimum": 90.6
+		},
+		{
+			"sections_instructor": "murugan, mathav",
+			"sections_title": "functional analy",
+			"minimum": 95.67
+		},
+		{
+			"sections_instructor": "tsai, tai-peng",
+			"sections_title": "ptl dif eqn flud",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ptl dif eqn flud",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "li, dong",
+			"sections_title": "ptl dif eqn flud",
+			"minimum": 90.5
+		},
+		{
+			"sections_instructor": "tsai, tai-peng",
+			"sections_title": "prt diff equa i",
+			"minimum": 92.56
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prt diff equa i",
+			"minimum": 93.02
+		},
+		{
+			"sections_instructor": "gustafson, stephen james",
+			"sections_title": "prt diff equa i",
+			"minimum": 91.71
+		},
+		{
+			"sections_instructor": "kim, young-heon",
+			"sections_title": "prt diff equa i",
+			"minimum": 92.53
+		},
+		{
+			"sections_instructor": "wei, juncheng",
+			"sections_title": "prt diff equa i",
+			"minimum": 96.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "num anly prtl df",
+			"minimum": 91.56
+		},
+		{
+			"sections_instructor": "friedman, joel",
+			"sections_title": "combinatorial op",
+			"minimum": 92.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "combinatorial op",
+			"minimum": 92.89
+		},
+		{
+			"sections_instructor": "solymosi, jozsef",
+			"sections_title": "combinatorial op",
+			"minimum": 93.11
+		},
+		{
+			"sections_instructor": "fraser, ailana",
+			"sections_title": "diff geometry i",
+			"minimum": 93.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "diff geometry i",
+			"minimum": 93.05
+		},
+		{
+			"sections_instructor": "chau, albert",
+			"sections_title": "diff geometry i",
+			"minimum": 93.75
+		},
+		{
+			"sections_instructor": "chen, jingyi",
+			"sections_title": "diff geometry i",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "gomez, jose",
+			"sections_title": "algb topology i",
+			"minimum": 99.78
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "algb topology i",
+			"minimum": 95.21
+		},
+		{
+			"sections_instructor": "bryan, jim",
+			"sections_title": "algb topology i",
+			"minimum": 91.67
+		},
+		{
+			"sections_instructor": "adem, alejandro",
+			"sections_title": "algb topology i",
+			"minimum": 94.17
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "algb geometry i",
+			"minimum": 95.83
+		},
+		{
+			"sections_instructor": "karu, kalle",
+			"sections_title": "algb geometry i",
+			"minimum": 97.48
+		},
+		{
+			"sections_instructor": "gordon, julia yulia",
+			"sections_title": "lie theory i",
+			"minimum": 93.52
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "lie theory i",
+			"minimum": 92.81
+		},
+		{
+			"sections_instructor": "reichstein, zinovy",
+			"sections_title": "lie theory i",
+			"minimum": 91.4
+		},
+		{
+			"sections_instructor": "ghioca, dragos",
+			"sections_title": "elem number thry",
+			"minimum": 91.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "elem number thry",
+			"minimum": 91.75
+		},
+		{
+			"sections_instructor": "bennett, michael",
+			"sections_title": "analyt num thry",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "analyt num thry",
+			"minimum": 91.29
+		},
+		{
+			"sections_instructor": "silberman, lior",
+			"sections_title": "analyt num thry",
+			"minimum": 91.19
+		},
+		{
+			"sections_instructor": "pramanik, malabika",
+			"sections_title": "harmonic anal i",
+			"minimum": 93.44
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "harmonic anal i",
+			"minimum": 94.66
+		},
+		{
+			"sections_instructor": "laba, izabella",
+			"sections_title": "harmonic anal i",
+			"minimum": 97.09
+		},
+		{
+			"sections_instructor": "slade, gordon",
+			"sections_title": "probability i",
+			"minimum": 94.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "probability i",
+			"minimum": 92.39
+		},
+		{
+			"sections_instructor": "angel, omer",
+			"sections_title": "probability i",
+			"minimum": 91.83
+		},
+		{
+			"sections_instructor": "nachmias, asaf",
+			"sections_title": "probability ii",
+			"minimum": 96.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "probability ii",
+			"minimum": 93.2
+		},
+		{
+			"sections_instructor": "brydges, david",
+			"sections_title": "probability ii",
+			"minimum": 92.75
+		},
+		{
+			"sections_instructor": "angel, omer",
+			"sections_title": "probability ii",
+			"minimum": 91.86
+		},
+		{
+			"sections_instructor": "perkins, edwin",
+			"sections_title": "probability ii",
+			"minimum": 92.78
+		},
+		{
+			"sections_instructor": "barlow, martin",
+			"sections_title": "probability ii",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "perkins, edwin",
+			"sections_title": "cnt tme stchastc",
+			"minimum": 91.91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cnt tme stchastc",
+			"minimum": 91.91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mthds asymp anal",
+			"minimum": 91.85
+		},
+		{
+			"sections_instructor": "balmforth, neil",
+			"sections_title": "mthds asymp anal",
+			"minimum": 90.94
+		},
+		{
+			"sections_instructor": "ward, michael jeffrey",
+			"sections_title": "pertrb diff equa",
+			"minimum": 90.96
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "pertrb diff equa",
+			"minimum": 90.96
+		},
+		{
+			"sections_instructor": "nagata, k wayne",
+			"sections_title": "intr dyn systems",
+			"minimum": 94.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intr dyn systems",
+			"minimum": 94.33
+		},
+		{
+			"sections_instructor": "feng, james jingtao",
+			"sections_title": "complex fluids",
+			"minimum": 90.24
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "complex fluids",
+			"minimum": 90.24
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "msc major essay",
+			"minimum": 92.4
+		},
+		{
+			"sections_instructor": "mohammadhasani khorasany, rami",
+			"sections_title": "linear vibrtns",
+			"minimum": 93.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "linear vibrtns",
+			"minimum": 93.5
+		},
+		{
+			"sections_instructor": "de silva, clarence wilfred",
+			"sections_title": "modl dynam systm",
+			"minimum": 91.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "modl dynam systm",
+			"minimum": 91.88
+		},
+		{
+			"sections_instructor": "cripton, peter",
+			"sections_title": "fdmt inj biomech",
+			"minimum": 92.43
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fdmt inj biomech",
+			"minimum": 92.43
+		},
+		{
+			"sections_instructor": "merida-donis, walter",
+			"sections_title": "fuel cell system",
+			"minimum": 90.17
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fuel cell system",
+			"minimum": 90.17
+		},
+		{
+			"sections_instructor": "chiao, mu",
+			"sections_title": "microelectromech",
+			"minimum": 91.01
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "microelectromech",
+			"minimum": 91.01
+		},
+		{
+			"sections_instructor": "hodgson, murray",
+			"sections_title": "adv eng acoustcs",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv eng acoustcs",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "altintas, yusuf",
+			"sections_title": "mch tool str&vib",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mch tool str&vib",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "proj mec studies",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "teslenko, tatiana",
+			"sections_title": "research seminar",
+			"minimum": 90.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "research seminar",
+			"minimum": 90.56
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "seminar",
+			"minimum": 91.31
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "seminar",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "anasavarapu, srikantha",
+			"sections_title": "seminar",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "hieter, philip;jones, steven j;rose, ann",
+			"sections_title": "genome analysis",
+			"minimum": 91.08
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "genome analysis",
+			"minimum": 91.22
+		},
+		{
+			"sections_instructor": "taubert, stefan",
+			"sections_title": "adv hum mole gen",
+			"minimum": 91.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv hum mole gen",
+			"minimum": 91.14
+		},
+		{
+			"sections_instructor": "morin, gregg",
+			"sections_title": "biolgy of cancer",
+			"minimum": 90.76
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "biolgy of cancer",
+			"minimum": 90.76
+		},
+		{
+			"sections_instructor": "clarke, lorne",
+			"sections_title": "adv human gene",
+			"minimum": 94.7
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv human gene",
+			"minimum": 91.63
+		},
+		{
+			"sections_instructor": "virani, alice",
+			"sections_title": "genetics& ethics",
+			"minimum": 92.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "genetics& ethics",
+			"minimum": 92.14
+		},
+		{
+			"sections_instructor": "ashe, maureen;cherkasov, artem;cox, michael;duronio, vincent;mcnagny, kelly marshall;mui, alice;pelech, steven daniel;reiner, neil;roberts, clive;rossi, fabio;sandford, andrew;sly, laura;steiner, theodore;tebbutt, scott;vallance, bruce;wang, yu tian",
+			"sections_title": "mole & cell biol",
+			"minimum": 90.68
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mole & cell biol",
+			"minimum": 90.68
+		},
+		{
+			"sections_instructor": "cox, michael",
+			"sections_title": "exptl med method",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "exptl med method",
+			"minimum": 92.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "m.sc. thesis",
+			"minimum": 92.03
+		},
+		{
+			"sections_instructor": "ayas, najib",
+			"sections_title": "pulmonry pthphyl",
+			"minimum": 93.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "pulmonry pthphyl",
+			"minimum": 91.95
+		},
+		{
+			"sections_instructor": "allard, michael",
+			"sections_title": "cardiovas path",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cardiovas path",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "gantt, soren;horwitz, marc",
+			"sections_title": "viral infec humn",
+			"minimum": 90.39
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "viral infec humn",
+			"minimum": 90.39
+		},
+		{
+			"sections_instructor": "oliver, david",
+			"sections_title": "expermntl micb",
+			"minimum": 91.79
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "expermntl micb",
+			"minimum": 91.79
+		},
+		{
+			"sections_instructor": "hallam, steven",
+			"sections_title": "micb eco genomic",
+			"minimum": 92.12
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "micb eco genomic",
+			"minimum": 92.12
+		},
+		{
+			"sections_instructor": "ramey, william d",
+			"sections_title": "research problem",
+			"minimum": 91.77
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "research problem",
+			"minimum": 92.57
+		},
+		{
+			"sections_instructor": "kion, tracy",
+			"sections_title": "research problem",
+			"minimum": 94.17
+		},
+		{
+			"sections_instructor": "perona wright, georgia",
+			"sections_title": "adv immunogeneti",
+			"minimum": 92.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv immunogeneti",
+			"minimum": 91.86
+		},
+		{
+			"sections_instructor": "abraham, ninan",
+			"sections_title": "adv immunogeneti",
+			"minimum": 91.42
+		},
+		{
+			"sections_instructor": "gold, michael;perona wright, georgia;sly, laura",
+			"sections_title": "adv immunogeneti",
+			"minimum": 90.55
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cnsl mat cr prov",
+			"minimum": 93.39
+		},
+		{
+			"sections_instructor": "mcrae, lorna",
+			"sections_title": "cnsl mat cr prov",
+			"minimum": 93.56
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "appl hlth serv",
+			"minimum": 92.38
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "appl hlth serv",
+			"minimum": 92.67
+		},
+		{
+			"sections_instructor": "bayrampour basmenj, hamideh",
+			"sections_title": "crit apprais lit",
+			"minimum": 93.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "crit apprais lit",
+			"minimum": 93.75
+		},
+		{
+			"sections_instructor": "lyons, jeanne",
+			"sections_title": "ethics mtrnycare",
+			"minimum": 91.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ethics mtrnycare",
+			"minimum": 91.2
+		},
+		{
+			"sections_instructor": "broten, courtney",
+			"sections_title": "clinical skills",
+			"minimum": 91.79
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "clinical skills",
+			"minimum": 91.79
+		},
+		{
+			"sections_instructor": "campbell, kim;vedam, saraswathi",
+			"sections_title": "clinical clerkship",
+			"minimum": 92.29
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "clinical clerkship",
+			"minimum": 92.29
+		},
+		{
+			"sections_instructor": "schoen, michael",
+			"sections_title": "seminar",
+			"minimum": 92.67
+		},
+		{
+			"sections_instructor": "veiga, marcello",
+			"sections_title": "seminar",
+			"minimum": 92.51
+		},
+		{
+			"sections_instructor": "elmo, davide",
+			"sections_title": "cave mn sys: d&p",
+			"minimum": 91.56
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cave mn sys: d&p",
+			"minimum": 91.56
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mgmt sc meth",
+			"minimum": 93.7
+		},
+		{
+			"sections_instructor": "handelsman, simon",
+			"sections_title": "mgmt sc meth",
+			"minimum": 90.43
+		},
+		{
+			"sections_instructor": "dunbar, w scott",
+			"sections_title": "mgmt sc meth",
+			"minimum": 94.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "min eco fin",
+			"minimum": 90.52
+		},
+		{
+			"sections_instructor": "veiga, marcello",
+			"sections_title": "min & soc",
+			"minimum": 90.69
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "min & soc",
+			"minimum": 90.69
+		},
+		{
+			"sections_instructor": "cockcroft, steven",
+			"sections_title": "mtrl manufact",
+			"minimum": 92.89
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mtrl manufact",
+			"minimum": 92.89
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fin el heat tran",
+			"minimum": 90.83
+		},
+		{
+			"sections_instructor": "dixon, david",
+			"sections_title": "hydrmtllgcl rctr",
+			"minimum": 95.63
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hydrmtllgcl rctr",
+			"minimum": 95.63
+		},
+		{
+			"sections_instructor": "forghani, alireza;zobeiry, navid",
+			"sections_title": "adv compsit mtrl",
+			"minimum": 90.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv compsit mtrl",
+			"minimum": 90.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intro musc thry",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "konoval, michael brandon",
+			"sections_title": "intro musc thry",
+			"minimum": 94.25
+		},
+		{
+			"sections_instructor": "bortolussi, paolo;hamm, corey",
+			"sections_title": "contem players",
+			"minimum": 93.35
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "contem players",
+			"minimum": 93.2
+		},
+		{
+			"sections_instructor": "hamm, corey;magnanensi, giorgio;wilson, eric",
+			"sections_title": "contem players",
+			"minimum": 93.06
+		},
+		{
+			"sections_instructor": "stride, frederick",
+			"sections_title": "jazz ensemble",
+			"minimum": 90.19
+		},
+		{
+			"sections_instructor": "sharon, rena",
+			"sections_title": "clbrtv piano ii",
+			"minimum": 90.95
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "clbrtv piano ii",
+			"minimum": 90.95
+		},
+		{
+			"sections_instructor": "van deursen, john",
+			"sections_title": "rdngs orch rep",
+			"minimum": 92.63
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "rdngs orch rep",
+			"minimum": 92.63
+		},
+		{
+			"sections_instructor": "hesselink, nathan",
+			"sections_title": "hist poplr music",
+			"minimum": 93.45
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hist poplr music",
+			"minimum": 93.45
+		},
+		{
+			"sections_instructor": "raftery, james",
+			"sections_title": "vocal techniques",
+			"minimum": 92.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "vocal techniques",
+			"minimum": 92.67
+		},
+		{
+			"sections_instructor": "girard, jonathan",
+			"sections_title": "orch repertoire",
+			"minimum": 93.92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "orch repertoire",
+			"minimum": 93.09
+		},
+		{
+			"sections_instructor": "van deursen, john",
+			"sections_title": "orch repertoire",
+			"minimum": 93.33
+		},
+		{
+			"sections_instructor": "barcza, peter;sharon, rena",
+			"sections_title": "art song int prf",
+			"minimum": 90.08
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "art song int prf",
+			"minimum": 90.08
+		},
+		{
+			"sections_instructor": "langager, graeme",
+			"sections_title": "ubc singers",
+			"minimum": 94.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ubc singers",
+			"minimum": 94.33
+		},
+		{
+			"sections_instructor": "girard, jonathan",
+			"sections_title": "ubc chamb string",
+			"minimum": 96.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ubc chamb string",
+			"minimum": 96.5
+		},
+		{
+			"sections_instructor": "bortolussi, paolo;hamm, corey",
+			"sections_title": "contemp players",
+			"minimum": 91.02
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "contemp players",
+			"minimum": 91.61
+		},
+		{
+			"sections_instructor": "hamm, corey;wilson, eric",
+			"sections_title": "contemp players",
+			"minimum": 94
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "shpbld proj mgmt",
+			"minimum": 91.57
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "shpbld proj mgmt",
+			"minimum": 91.16
+		},
+		{
+			"sections_instructor": "stana, vitorio",
+			"sections_title": "shpbld proj mgmt",
+			"minimum": 90.75
+		},
+		{
+			"sections_instructor": "macphee, maura",
+			"sections_title": "ldrshp, ethics",
+			"minimum": 94.15
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ldrshp, ethics",
+			"minimum": 94.15
+		},
+		{
+			"sections_instructor": "bungay, victoria",
+			"sections_title": "commnty & popltn",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "rodney, patricia",
+			"sections_title": "rl div hlth expr",
+			"minimum": 92.62
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "rl div hlth expr",
+			"minimum": 91.97
+		},
+		{
+			"sections_instructor": "brown, helen jean;o'flynn-magee, katherine;smye, victoria;tan, elsie",
+			"sections_title": "rl div hlth expr",
+			"minimum": 91.33
+		},
+		{
+			"sections_instructor": "rodney, patricia",
+			"sections_title": "practice praxis",
+			"minimum": 91.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "practice praxis",
+			"minimum": 91.83
+		},
+		{
+			"sections_instructor": "macphee, maura",
+			"sections_title": "ldrshp ethcs pol",
+			"minimum": 93.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ldrshp ethcs pol",
+			"minimum": 93.14
+		},
+		{
+			"sections_instructor": "macphee, maura",
+			"sections_title": "chldren&families",
+			"minimum": 94
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "chldren&families",
+			"minimum": 94
+		},
+		{
+			"sections_instructor": "phillips, craig",
+			"sections_title": "mntl hlth concrn",
+			"minimum": 95
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "mntl hlth concrn",
+			"minimum": 95
+		},
+		{
+			"sections_instructor": "phillips, craig",
+			"sections_title": "rsrch evidence",
+			"minimum": 90.65
+		},
+		{
+			"sections_instructor": "phillips, craig",
+			"sections_title": "stat lit nursing",
+			"minimum": 90.06
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "stat lit nursing",
+			"minimum": 90.06
+		},
+		{
+			"sections_instructor": "henczel, lisa",
+			"sections_title": "hlth promo prac",
+			"minimum": 91.47
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hlth promo prac",
+			"minimum": 91.47
+		},
+		{
+			"sections_instructor": "mccuaig, fairleth",
+			"sections_title": "pharcgy prm care",
+			"minimum": 90.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "pharcgy prm care",
+			"minimum": 90.88
+		},
+		{
+			"sections_instructor": "brew, nancy",
+			"sections_title": "cl pro prim care",
+			"minimum": 97.07
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cl pro prim care",
+			"minimum": 95.12
+		},
+		{
+			"sections_instructor": "joachim, gloria;thomson, sharon",
+			"sections_title": "cl pro prim care",
+			"minimum": 90.36
+		},
+		{
+			"sections_instructor": "henczel, lisa",
+			"sections_title": "cl pro prim care",
+			"minimum": 92.69
+		},
+		{
+			"sections_instructor": "krist, jennifer",
+			"sections_title": "cl pro prim care",
+			"minimum": 98.21
+		},
+		{
+			"sections_instructor": "harding, jillian",
+			"sections_title": "cl pro prim care",
+			"minimum": 95.13
+		},
+		{
+			"sections_instructor": "krist, jennifer;mccuaig, fairleth",
+			"sections_title": "cl pro prim care",
+			"minimum": 95.29
+		},
+		{
+			"sections_instructor": "mccuaig, fairleth",
+			"sections_title": "adv hlth assess",
+			"minimum": 92.39
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv hlth assess",
+			"minimum": 92.22
+		},
+		{
+			"sections_instructor": "jennings,  mary lou;mccuaig, fairleth",
+			"sections_title": "adv hlth assess",
+			"minimum": 91.93
+		},
+		{
+			"sections_instructor": "burrows, marlene;harding, jillian;mccuaig, fairleth",
+			"sections_title": "adv hlth assess",
+			"minimum": 94
+		},
+		{
+			"sections_instructor": "harding, jillian;krist, jennifer;mccuaig, fairleth",
+			"sections_title": "adv hlth assess",
+			"minimum": 91.67
+		},
+		{
+			"sections_instructor": "burrows, marlene;mccuaig, fairleth",
+			"sections_title": "adv hlth assess",
+			"minimum": 93.4
+		},
+		{
+			"sections_instructor": "brown, helen jean;mccuaig, fairleth",
+			"sections_title": "adv hlth assess",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "macphee, maura",
+			"sections_title": "admn ldrshp nurs",
+			"minimum": 91.91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "admn ldrshp nurs",
+			"minimum": 92.12
+		},
+		{
+			"sections_instructor": "bungay, victoria",
+			"sections_title": "admn ldrshp nurs",
+			"minimum": 92.33
+		},
+		{
+			"sections_instructor": "jillings, carol",
+			"sections_title": "educ prc nurs",
+			"minimum": 90.63
+		},
+		{
+			"sections_instructor": "saewyc, elizabeth",
+			"sections_title": "adv quant design",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv quant design",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth",
+			"sections_title": "primary care ii",
+			"minimum": 90.81
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "primary care ii",
+			"minimum": 90.55
+		},
+		{
+			"sections_instructor": "mccuaig, fairleth;tba",
+			"sections_title": "primary care iii",
+			"minimum": 90.07
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "primary care iii",
+			"minimum": 91.21
+		},
+		{
+			"sections_instructor": "mccuaig, fairleth",
+			"sections_title": "primary care iii",
+			"minimum": 91.11
+		},
+		{
+			"sections_instructor": "burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth",
+			"sections_title": "primary care iii",
+			"minimum": 93.5
+		},
+		{
+			"sections_instructor": "brew, nancy;mccuaig, fairleth",
+			"sections_title": "fam nrs pract",
+			"minimum": 93.86
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fam nrs pract",
+			"minimum": 96.36
+		},
+		{
+			"sections_instructor": "joachim, gloria;thomson, sharon",
+			"sections_title": "fam nrs pract",
+			"minimum": 90.85
+		},
+		{
+			"sections_instructor": "krist, jennifer",
+			"sections_title": "fam nrs pract",
+			"minimum": 96.64
+		},
+		{
+			"sections_instructor": "burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth",
+			"sections_title": "fam nrs pract",
+			"minimum": 98.02
+		},
+		{
+			"sections_instructor": "brew, nancy",
+			"sections_title": "eth&profl issues",
+			"minimum": 94.43
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "eth&profl issues",
+			"minimum": 94.08
+		},
+		{
+			"sections_instructor": "thomson, sharon",
+			"sections_title": "eth&profl issues",
+			"minimum": 93.07
+		},
+		{
+			"sections_instructor": "burrows, marlene",
+			"sections_title": "eth&profl issues",
+			"minimum": 95.07
+		},
+		{
+			"sections_instructor": "harding, jillian",
+			"sections_title": "eth&profl issues",
+			"minimum": 94.92
+		},
+		{
+			"sections_instructor": "jillings, carol",
+			"sections_title": "msn major essay",
+			"minimum": 94
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sch adv rsrch pr",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "perks, anthony",
+			"sections_title": "sem reprd biol",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sem reprd biol",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "janssen, patricia",
+			"sections_title": "perinatal epidem",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "perinatal epidem",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "msc thesis",
+			"minimum": 92.94
+		},
+		{
+			"sections_instructor": "yip, stephen",
+			"sections_title": "concepts in onco",
+			"minimum": 91.77
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "concepts in onco",
+			"minimum": 91.62
+		},
+		{
+			"sections_instructor": "weng, andrew",
+			"sections_title": "concepts in onco",
+			"minimum": 90.78
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "med lab toxiclgy",
+			"minimum": 90.25
+		},
+		{
+			"sections_instructor": "bennewith, kevin;cote, helene;devlin, angela;granville, david;lockwood, william;shah, sohrab;steidl, christian;verchere, bruce;wellington, cheryl lea;weng, andrew",
+			"sections_title": "tpcs path rsrch",
+			"minimum": 91.79
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tpcs path rsrch",
+			"minimum": 92.19
+		},
+		{
+			"sections_instructor": "bally, marcel bertran;bennewith, kevin;cote, helene;devlin, angela;rajcan-separovic, evica;shah, sohrab;steidl, christian;verchere, bruce;wellington, cheryl lea;weng, andrew",
+			"sections_title": "tpcs path rsrch",
+			"minimum": 92.58
+		},
+		{
+			"sections_instructor": "cote, helene",
+			"sections_title": "seminar",
+			"minimum": 91.26
+		},
+		{
+			"sections_instructor": "cote, helene;kalloger, steve ernest;wellington, cheryl lea",
+			"sections_title": "seminar",
+			"minimum": 91.17
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tech mlc biol&ex",
+			"minimum": 90.97
+		},
+		{
+			"sections_instructor": "ng, david",
+			"sections_title": "tech mlc biol&ex",
+			"minimum": 91.02
+		},
+		{
+			"sections_instructor": "pang, catherine c",
+			"sections_title": "intro to pcol",
+			"minimum": 90.93
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intro to pcol",
+			"minimum": 90.93
+		},
+		{
+			"sections_instructor": "karim, sultan;pang, catherine c;walker, michael j a",
+			"sections_title": "systmtc pcol lab",
+			"minimum": 91.16
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "systmtc pcol lab",
+			"minimum": 91.16
+		},
+		{
+			"sections_instructor": "bhagavatula, sastry",
+			"sections_title": "drugs &intercell",
+			"minimum": 90.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "drugs &intercell",
+			"minimum": 90.25
+		},
+		{
+			"sections_instructor": "dormuth, colin",
+			"sections_title": "design & bioassy",
+			"minimum": 91.22
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "design & bioassy",
+			"minimum": 90.56
+		},
+		{
+			"sections_instructor": "walker, michael j a",
+			"sections_title": "design & bioassy",
+			"minimum": 90.23
+		},
+		{
+			"sections_instructor": "macleod, bernard a",
+			"sections_title": "pcol anaesthesia",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "pcol anaesthesia",
+			"minimum": 91.33
+		},
+		{
+			"sections_instructor": "bhagavatula, sastry",
+			"sections_title": "ms thesis",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ms thesis",
+			"minimum": 92.6
+		},
+		{
+			"sections_instructor": "knight, darryl",
+			"sections_title": "ms thesis",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "pharmacokinetics",
+			"minimum": 90.26
+		},
+		{
+			"sections_instructor": "wasan, kishor",
+			"sections_title": "biophys pharm i",
+			"minimum": 90.45
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "biophys pharm i",
+			"minimum": 90.45
+		},
+		{
+			"sections_instructor": "low, alan",
+			"sections_title": "pharm mgmt",
+			"minimum": 90.87
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "pharm mgmt",
+			"minimum": 90.71
+		},
+		{
+			"sections_instructor": "seto, katherine",
+			"sections_title": "admn of injectns",
+			"minimum": 92.85
+		},
+		{
+			"sections_instructor": "massaro, davide;seto, katherine",
+			"sections_title": "admn of injectns",
+			"minimum": 91.95
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "admn of injectns",
+			"minimum": 93.24
+		},
+		{
+			"sections_instructor": "massaro, davide",
+			"sections_title": "admn of injectns",
+			"minimum": 92.66
+		},
+		{
+			"sections_instructor": "lalji, fawziah;seto, katherine",
+			"sections_title": "admn of injectns",
+			"minimum": 94.81
+		},
+		{
+			"sections_instructor": "kent, debra ann",
+			"sections_title": "drug safety",
+			"minimum": 91.06
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "drug safety",
+			"minimum": 91.06
+		},
+		{
+			"sections_instructor": "ensom, mary",
+			"sections_title": "clin pharcknetcs",
+			"minimum": 91.23
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "clin pharcknetcs",
+			"minimum": 91.23
+		},
+		{
+			"sections_instructor": "cairns, brian;levine, marc;soja, peter",
+			"sections_title": "pain res & thera",
+			"minimum": 91.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "pain res & thera",
+			"minimum": 91.2
+		},
+		{
+			"sections_instructor": "leung, larry;min, jason",
+			"sections_title": "phar care aborig",
+			"minimum": 91.12
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "phar care aborig",
+			"minimum": 91.14
+		},
+		{
+			"sections_instructor": "nicholl, tessa",
+			"sections_title": "cs phar sci iv",
+			"minimum": 90.53
+		},
+		{
+			"sections_instructor": "ensom, mary;riggs, kenneth wayne",
+			"sections_title": "adv conc pharmac",
+			"minimum": 90.52
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv conc pharmac",
+			"minimum": 90.83
+		},
+		{
+			"sections_instructor": "collier, abby;ensom, mary;wong, harvey",
+			"sections_title": "adv conc pharmac",
+			"minimum": 90.63
+		},
+		{
+			"sections_instructor": "hafeli, urs",
+			"sections_title": "diag img & rdoph",
+			"minimum": 90.43
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "diag img & rdoph",
+			"minimum": 90.43
+		},
+		{
+			"sections_instructor": "hafeli, urs",
+			"sections_title": "seminar",
+			"minimum": 93
+		},
+		{
+			"sections_instructor": "hafeli, urs;kumar, ujendra",
+			"sections_title": "seminar",
+			"minimum": 91.4
+		},
+		{
+			"sections_instructor": "jackson, howard",
+			"sections_title": "log & crit think",
+			"minimum": 96
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "log & crit think",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "taubeneck, steven",
+			"sections_title": "directed reading",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "directed reading",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "leung, larry",
+			"sections_title": "phrm in practc 1",
+			"minimum": 94.23
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "phrm in practc 1",
+			"minimum": 94.23
+		},
+		{
+			"sections_instructor": "min, jason",
+			"sections_title": "tech in hlthcare",
+			"minimum": 92.06
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tech in hlthcare",
+			"minimum": 92.06
+		},
+		{
+			"sections_instructor": "murphy, susan",
+			"sections_title": "clinical dec i",
+			"minimum": 90.99
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "clinical dec i",
+			"minimum": 90.79
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "clinical dec ii",
+			"minimum": 92.04
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "case integr i",
+			"minimum": 90.61
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "clin make iv",
+			"minimum": 94.84
+		},
+		{
+			"sections_instructor": "bonn, douglas andrew",
+			"sections_title": "intro exper phys",
+			"minimum": 90.25
+		},
+		{
+			"sections_instructor": "semenoff, gordon walter",
+			"sections_title": "quantum mech ii",
+			"minimum": 93.31
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "quantum mech ii",
+			"minimum": 93.31
+		},
+		{
+			"sections_instructor": "affleck, ian keith",
+			"sections_title": "cond matter ii",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cond matter ii",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "rozali, moshe",
+			"sections_title": "relativty & elec",
+			"minimum": 91.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "relativty & elec",
+			"minimum": 91.75
+		},
+		{
+			"sections_instructor": "lister, alison",
+			"sections_title": "elm prticle phys",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "elm prticle phys",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "stamp, philip c",
+			"sections_title": "quant fld theory",
+			"minimum": 95.43
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "quant fld theory",
+			"minimum": 92.65
+		},
+		{
+			"sections_instructor": "zhitnitsky, ariel",
+			"sections_title": "quant fld theory",
+			"minimum": 92.07
+		},
+		{
+			"sections_instructor": "ng, john",
+			"sections_title": "quant fld theory",
+			"minimum": 92.2
+		},
+		{
+			"sections_instructor": "semenoff, gordon walter",
+			"sections_title": "quantum elctrdyn",
+			"minimum": 91.85
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "quantum elctrdyn",
+			"minimum": 91.85
+		},
+		{
+			"sections_instructor": "spadinger, ingrid",
+			"sections_title": "rdiothrpy phy ii",
+			"minimum": 90.7
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "rdiothrpy phy ii",
+			"minimum": 90.7
+		},
+		{
+			"sections_instructor": "reinsberg, stefan",
+			"sections_title": "adv rad biophys",
+			"minimum": 92.42
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv rad biophys",
+			"minimum": 92.42
+		},
+		{
+			"sections_instructor": "duzenli, cheryl",
+			"sections_title": "rdtn dosimetry",
+			"minimum": 90.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "rdtn dosimetry",
+			"minimum": 90.83
+		},
+		{
+			"sections_instructor": "mackay, alexander",
+			"sections_title": "anat phys stats",
+			"minimum": 90.96
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "anat phys stats",
+			"minimum": 90.95
+		},
+		{
+			"sections_instructor": "mackay, alexander;schulzer, michael",
+			"sections_title": "anat phys stats",
+			"minimum": 90.94
+		},
+		{
+			"sections_instructor": "senbel, maged",
+			"sections_title": "urb dsgn thr&met",
+			"minimum": 91.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "urb dsgn thr&met",
+			"minimum": 91.36
+		},
+		{
+			"sections_instructor": "villagomez, erick",
+			"sections_title": "urb dsgn thr&met",
+			"minimum": 91.58
+		},
+		{
+			"sections_instructor": "wollenberg, jay",
+			"sections_title": "sem r prpty dv&p",
+			"minimum": 91.88
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sem r prpty dv&p",
+			"minimum": 91.68
+		},
+		{
+			"sections_instructor": "frank, lawrence",
+			"sections_title": "urban transport",
+			"minimum": 90.08
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "urban transport",
+			"minimum": 90.08
+		},
+		{
+			"sections_instructor": "hutton, thomas",
+			"sections_title": "urbn restructing",
+			"minimum": 90.53
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "urbn restructing",
+			"minimum": 90.53
+		},
+		{
+			"sections_instructor": "dorcey, anthony h j",
+			"sections_title": "nat resrce mngmt",
+			"minimum": 94.68
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "nat resrce mngmt",
+			"minimum": 93.9
+		},
+		{
+			"sections_instructor": "erfan, aftab",
+			"sections_title": "nat resrce mngmt",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "woody, sheila",
+			"sections_title": "honours seminar",
+			"minimum": 90.38
+		},
+		{
+			"sections_instructor": "wilkie, donald",
+			"sections_title": "honours essay",
+			"minimum": 90.27
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "honours essay",
+			"minimum": 90.3
+		},
+		{
+			"sections_instructor": "schaller, mark",
+			"sections_title": "honours essay",
+			"minimum": 90.33
+		},
+		{
+			"sections_instructor": "de longis, anita",
+			"sections_title": "health psych",
+			"minimum": 94.13
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "health psych",
+			"minimum": 94.15
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "teaching of psyc",
+			"minimum": 90.44
+		},
+		{
+			"sections_instructor": "carlson, scott",
+			"sections_title": "assm intrv techn",
+			"minimum": 91.04
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "assm intrv techn",
+			"minimum": 91.04
+		},
+		{
+			"sections_instructor": "heaven, roberta",
+			"sections_title": "behav assessment",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "behav assessment",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "wagner, john",
+			"sections_title": "eth & prof clin",
+			"minimum": 94.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "eth & prof clin",
+			"minimum": 93.49
+		},
+		{
+			"sections_instructor": "sochting, ingrid",
+			"sections_title": "eth & prof clin",
+			"minimum": 94.75
+		},
+		{
+			"sections_instructor": "mcgee, brandy",
+			"sections_title": "eth & prof clin",
+			"minimum": 91.61
+		},
+		{
+			"sections_instructor": "wagner, john",
+			"sections_title": "intro psychthrpy",
+			"minimum": 95.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intro psychthrpy",
+			"minimum": 92.4
+		},
+		{
+			"sections_instructor": "mcgee, brandy",
+			"sections_title": "intro psychthrpy",
+			"minimum": 91.39
+		},
+		{
+			"sections_instructor": "sochting, ingrid",
+			"sections_title": "intro psychthrpy",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "alden, lynn",
+			"sections_title": "cog/beh interven",
+			"minimum": 91.42
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cog/beh interven",
+			"minimum": 91.42
+		},
+		{
+			"sections_instructor": "klonsky, elisha",
+			"sections_title": "clinical res des",
+			"minimum": 91.6
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "clinical res des",
+			"minimum": 91.6
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv conc rehb rs",
+			"minimum": 91.44
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "eval src evidenc",
+			"minimum": 95
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "eval src evidenc",
+			"minimum": 91.4
+		},
+		{
+			"sections_instructor": "jongbloed, lyn",
+			"sections_title": "rehab theory",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "rehab theory",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "reas & dec-mking",
+			"minimum": 91.27
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "reas & dec-mking",
+			"minimum": 91.27
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "meas in practice",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "barbic, skye",
+			"sections_title": "assess plan eval",
+			"minimum": 91.36
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "assess plan eval",
+			"minimum": 90.5
+		},
+		{
+			"sections_instructor": "tba",
+			"sections_title": "rehab learning",
+			"minimum": 91.46
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "rehab learning",
+			"minimum": 92.96
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "major proj prt 1",
+			"minimum": 91
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "soci environ",
+			"minimum": 91.05
+		},
+		{
+			"sections_instructor": "yusupova, stella",
+			"sections_title": "basic russian ii",
+			"minimum": 90.5
+		},
+		{
+			"sections_instructor": "chitnev, veta",
+			"sections_title": "basic russian ii",
+			"minimum": 90.17
+		},
+		{
+			"sections_instructor": "habajova, irina",
+			"sections_title": "third-year russ",
+			"minimum": 92.3
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "third-year russ",
+			"minimum": 92.3
+		},
+		{
+			"sections_instructor": "hunter, thomas",
+			"sections_title": "intro sanskrit",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intro sanskrit",
+			"minimum": 92.5
+		},
+		{
+			"sections_instructor": "hunter, thomas",
+			"sections_title": "intermd sanskrit",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intermd sanskrit",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "lavkulich, leslie;wilson, julie",
+			"sections_title": "land water semnr",
+			"minimum": 90.71
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "land water semnr",
+			"minimum": 90.71
+		},
+		{
+			"sections_instructor": "wilson, julie",
+			"sections_title": "prof comms strat",
+			"minimum": 91.43
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prof comms strat",
+			"minimum": 91.43
+		},
+		{
+			"sections_instructor": "o'neill, brian",
+			"sections_title": "int sem in sw th",
+			"minimum": 91.55
+		},
+		{
+			"sections_instructor": "johnston, patricia",
+			"sections_title": "can soci plcy",
+			"minimum": 90.53
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "can soci plcy",
+			"minimum": 90.69
+		},
+		{
+			"sections_instructor": "weaver, sydney",
+			"sections_title": "sowk practice ii",
+			"minimum": 91.82
+		},
+		{
+			"sections_instructor": "clark, natalie",
+			"sections_title": "adv int sem in sw th",
+			"minimum": 90.13
+		},
+		{
+			"sections_instructor": "johnson, shelly",
+			"sections_title": "first nat soc is",
+			"minimum": 90.62
+		},
+		{
+			"sections_instructor": "casson, barbara;choi, marcia",
+			"sections_title": "health care team",
+			"minimum": 90.09
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "health care team",
+			"minimum": 90.09
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv can soc plcy",
+			"minimum": 90.89
+		},
+		{
+			"sections_instructor": "gill, deana",
+			"sections_title": "social analysis",
+			"minimum": 95.93
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "social analysis",
+			"minimum": 96.04
+		},
+		{
+			"sections_instructor": "bryson, stephanie;o'connor, deborah;stainton, timothy;sullivan, t richard;tester, frank",
+			"sections_title": "social analysis",
+			"minimum": 96.15
+		},
+		{
+			"sections_instructor": "vedan, richard",
+			"sections_title": "fst ntns soc iss",
+			"minimum": 93.4
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "fst ntns soc iss",
+			"minimum": 91.8
+		},
+		{
+			"sections_instructor": "johnson, shelly",
+			"sections_title": "fst ntns soc iss",
+			"minimum": 90.2
+		},
+		{
+			"sections_instructor": "kealy, david",
+			"sections_title": "pr mental health",
+			"minimum": 94.56
+		},
+		{
+			"sections_instructor": "escueta, mok",
+			"sections_title": "pr mental health",
+			"minimum": 91.81
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "pr mental health",
+			"minimum": 91.81
+		},
+		{
+			"sections_instructor": "wright, margaret",
+			"sections_title": "soc wrk & justce",
+			"minimum": 90.06
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "soc wrk & justce",
+			"minimum": 90.06
+		},
+		{
+			"sections_instructor": "bryson, stephanie",
+			"sections_title": "soc wrk & justce",
+			"minimum": 90.2
+		},
+		{
+			"sections_instructor": "gauvin, emma",
+			"sections_title": "soc wrk & justce",
+			"minimum": 92.88
+		},
+		{
+			"sections_instructor": "gill, deana",
+			"sections_title": "hlth & soc care",
+			"minimum": 96.09
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hlth & soc care",
+			"minimum": 90.74
+		},
+		{
+			"sections_instructor": "o'neill, brian",
+			"sections_title": "adv int seminar",
+			"minimum": 91.17
+		},
+		{
+			"sections_instructor": "bryson, stephanie",
+			"sections_title": "adv int seminar",
+			"minimum": 91.54
+		},
+		{
+			"sections_instructor": "gill, deana",
+			"sections_title": "adv int seminar",
+			"minimum": 93.82
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "adv int seminar",
+			"minimum": 90.65
+		},
+		{
+			"sections_instructor": "advisor, -",
+			"sections_title": "directed study",
+			"minimum": 90.13
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "directed study",
+			"minimum": 92.58
+		},
+		{
+			"sections_instructor": "clark, natalie",
+			"sections_title": "directed study",
+			"minimum": 92.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "advancd span iii",
+			"minimum": 92.7
+		},
+		{
+			"sections_instructor": "spacciante, stephanie;tba",
+			"sections_title": "advancd span iii",
+			"minimum": 91.6
+		},
+		{
+			"sections_instructor": "frankish, charles james",
+			"sections_title": "sociocult determ",
+			"minimum": 96.96
+		},
+		{
+			"sections_instructor": "frankish, charles james;guhn, martin;tanimura, kanna",
+			"sections_title": "sociocult determ",
+			"minimum": 93.89
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sociocult determ",
+			"minimum": 95.76
+		},
+		{
+			"sections_instructor": "frank, erica",
+			"sections_title": "work int health",
+			"minimum": 98.98
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "work int health",
+			"minimum": 98.98
+		},
+		{
+			"sections_instructor": "birnbaum, david",
+			"sections_title": "imprv pblic hlth",
+			"minimum": 92.08
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "imprv pblic hlth",
+			"minimum": 92.08
+		},
+		{
+			"sections_instructor": "sobolev, boris",
+			"sections_title": "an meth epid res",
+			"minimum": 93.19
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "an meth epid res",
+			"minimum": 90.85
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "meas health care",
+			"minimum": 92.11
+		},
+		{
+			"sections_instructor": "masse, louise",
+			"sections_title": "meas health care",
+			"minimum": 93.33
+		},
+		{
+			"sections_instructor": "kishchenko, svetlana",
+			"sections_title": "survlnc&monitrng",
+			"minimum": 94.75
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "survlnc&monitrng",
+			"minimum": 94.75
+		},
+		{
+			"sections_instructor": "doyle-waters, mary;taylor, darlene",
+			"sections_title": "syst rev hlth rs",
+			"minimum": 93.73
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "syst rev hlth rs",
+			"minimum": 93.73
+		},
+		{
+			"sections_instructor": "mulpuri, kishore",
+			"sections_title": "rsch surgical pr",
+			"minimum": 92.83
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "rsch surgical pr",
+			"minimum": 92.83
+		},
+		{
+			"sections_instructor": "pourbohloul, babak",
+			"sections_title": "math mdl com dis",
+			"minimum": 93.96
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "math mdl com dis",
+			"minimum": 93.96
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "qual mth res des",
+			"minimum": 92.78
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "cntrl com dis",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "dharamsi, shafik;spiegel, jerry",
+			"sections_title": "hlth & human sec",
+			"minimum": 90.57
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hlth & human sec",
+			"minimum": 90.57
+		},
+		{
+			"sections_instructor": "patrick, david",
+			"sections_title": "biol p hlth prac",
+			"minimum": 90.77
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "biol p hlth prac",
+			"minimum": 90.22
+		},
+		{
+			"sections_instructor": "kassam, rosemin",
+			"sections_title": "biol p hlth prac",
+			"minimum": 91.14
+		},
+		{
+			"sections_instructor": "ragaz, joseph",
+			"sections_title": "biol p hlth prac",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "lee, victoria",
+			"sections_title": "iss public hlth",
+			"minimum": 90.64
+		},
+		{
+			"sections_instructor": "naus, monika",
+			"sections_title": "iss public hlth",
+			"minimum": 90.84
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "iss public hlth",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "smailes, elizabeth;smith, robert",
+			"sections_title": "ldrship pub hlth",
+			"minimum": 91.81
+		},
+		{
+			"sections_instructor": "kazanjian, arminee",
+			"sections_title": "ldrship pub hlth",
+			"minimum": 90.31
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "ldrship pub hlth",
+			"minimum": 90.31
+		},
+		{
+			"sections_instructor": "mcgrail, kimberlyn;shoveller, jean",
+			"sections_title": "soc detrmin hlth",
+			"minimum": 90.45
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "soc detrmin hlth",
+			"minimum": 90.56
+		},
+		{
+			"sections_instructor": "shoveller, jean",
+			"sections_title": "soc detrmin hlth",
+			"minimum": 90.67
+		},
+		{
+			"sections_instructor": "mcgrail, kimberlyn",
+			"sections_title": "hltcr systm anyl",
+			"minimum": 90.38
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hltcr systm anyl",
+			"minimum": 90.38
+		},
+		{
+			"sections_instructor": "spittal, patricia",
+			"sections_title": "aborig pb health",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "aborig pb health",
+			"minimum": 91.25
+		},
+		{
+			"sections_instructor": "janssen, patricia",
+			"sections_title": "perinatl epidlgy",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "perinatl epidlgy",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "lovato, chris",
+			"sections_title": "prog pln & eval",
+			"minimum": 92.09
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "prog pln & eval",
+			"minimum": 91.34
+		},
+		{
+			"sections_instructor": "lovato, chris",
+			"sections_title": "hlth srv res i",
+			"minimum": 91.4
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hlth srv res i",
+			"minimum": 90.73
+		},
+		{
+			"sections_instructor": "kishchenko, svetlana",
+			"sections_title": "prog pln & eval",
+			"minimum": 92
+		},
+		{
+			"sections_instructor": "kazanjian, arminee",
+			"sections_title": "hlth tech asmnt",
+			"minimum": 93.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "hlth tech asmnt",
+			"minimum": 93.2
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "com hlth prom",
+			"minimum": 93.27
+		},
+		{
+			"sections_instructor": "frankish, charles james",
+			"sections_title": "com hlth prom",
+			"minimum": 93.58
+		},
+		{
+			"sections_instructor": "oviedo-joekes, eugenia",
+			"sections_title": "sbst use addictn",
+			"minimum": 94.36
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sbst use addictn",
+			"minimum": 94.36
+		},
+		{
+			"sections_instructor": "zamar, ruben",
+			"sections_title": "stat infrnce i",
+			"minimum": 91.73
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "stat infrnce i",
+			"minimum": 91.73
+		},
+		{
+			"sections_instructor": "bryan, jennifer frazier;cohen freue, gabriela",
+			"sections_title": "stat meth hd bio",
+			"minimum": 90.9
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "stat meth hd bio",
+			"minimum": 90.9
+		},
+		{
+			"sections_instructor": "cohen freue, gabriela",
+			"sections_title": "tech stat conslt",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "tech stat conslt",
+			"minimum": 90.29
+		},
+		{
+			"sections_instructor": "zamar, ruben",
+			"sections_title": "",
+			"minimum": 93.35
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "surgical rsrch",
+			"minimum": 92.39
+		},
+		{
+			"sections_instructor": "mclean, jayson",
+			"sections_title": "intro tech prod",
+			"minimum": 92.15
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "intro tech prod",
+			"minimum": 92.15
+		},
+		{
+			"sections_instructor": "horka, andy",
+			"sections_title": "sound design",
+			"minimum": 91.89
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sound design",
+			"minimum": 91.89
+		},
+		{
+			"sections_instructor": "rodgers, sarah",
+			"sections_title": "perf study ii",
+			"minimum": 91.1
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "perf study ii",
+			"minimum": 91.1
+		},
+		{
+			"sections_instructor": "mclean, jayson",
+			"sections_title": "scenery prod i",
+			"minimum": 92.77
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "scenery prod i",
+			"minimum": 92.77
+		},
+		{
+			"sections_instructor": "fowler, ruth skai",
+			"sections_title": "scene painting i",
+			"minimum": 90.46
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "scene painting i",
+			"minimum": 90.46
+		},
+		{
+			"sections_instructor": "driscoll-bell, jean",
+			"sections_title": "costume constr",
+			"minimum": 92.32
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "costume constr",
+			"minimum": 92.36
+		},
+		{
+			"sections_instructor": "firkins, jacqueline",
+			"sections_title": "costume constr",
+			"minimum": 92.41
+		},
+		{
+			"sections_instructor": "ditor, rachel",
+			"sections_title": "dramaturgy",
+			"minimum": 90.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "dramaturgy",
+			"minimum": 90.14
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "costum constr ii",
+			"minimum": 90.39
+		},
+		{
+			"sections_instructor": "johnston, kirsty",
+			"sections_title": "bibliog & resrch",
+			"minimum": 90.59
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "bibliog & resrch",
+			"minimum": 90.59
+		},
+		{
+			"sections_instructor": "gardiner, robert",
+			"sections_title": "sc dsgn std i",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "sc dsgn std i",
+			"minimum": 91.5
+		},
+		{
+			"sections_instructor": "savage, ken;shadwick, robert edward",
+			"sections_title": "comp animal phyl",
+			"minimum": 92.1
+		},
+		{
+			"sections_instructor": "",
+			"sections_title": "comp animal phyl",
+			"minimum": 91.99
+		},
+		{
+			"sections_instructor": "matthews, philip",
+			"sections_title": "comp animal phyl",
+			"minimum": 90.45
+		}
+	]
+}

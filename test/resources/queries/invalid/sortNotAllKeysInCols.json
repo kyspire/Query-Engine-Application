@@ -1,0 +1,25 @@
+{
+	"title": "Not all keys in Cols",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"sections_title",
+					"sections_dept"
+				]
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

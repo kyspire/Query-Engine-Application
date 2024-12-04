@@ -1,0 +1,24 @@
+{
+	"title": "invalid empty keys array",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+
+				]
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

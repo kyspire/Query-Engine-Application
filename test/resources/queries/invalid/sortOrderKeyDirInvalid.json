@@ -1,0 +1,24 @@
+{
+	"title": "di instead of dir",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title"
+			],
+			"ORDER": {
+				"di": "UP",
+				"keys": [
+					"sections_title"
+				]
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

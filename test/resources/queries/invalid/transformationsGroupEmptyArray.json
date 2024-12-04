@@ -1,0 +1,37 @@
+{
+	"title": "group empty array err",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"sections_instructor",
+					"sections_title"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+
+			],
+			"APPLY": [
+				{
+					"hello": {
+						"SUM": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

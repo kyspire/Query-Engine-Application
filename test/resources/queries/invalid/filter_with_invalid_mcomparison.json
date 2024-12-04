@@ -1,0 +1,17 @@
+{
+	"title": "lte",
+	"input": {
+		"WHERE": {
+			"LTE": {
+				"sections_avg": 50
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

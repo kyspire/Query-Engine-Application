@@ -1,0 +1,27 @@
+{
+  "title": "eq",
+  "input": {
+    "WHERE": {
+      "EQ": {
+        "sections_avg": 50
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_title"
+      ]
+    }
+  },
+  "errorExpected": false,
+  "expected": [
+    {
+      "sections_title": "rl es manage i"
+    },
+    {
+      "sections_title": "proc ctrl eng"
+    },
+    {
+      "sections_title": "childhood & adol"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "title": "lt",
+  "input": {
+    "WHERE": {
+      "LT": {
+        "sections_avg": 50
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_title"
+      ]
+    }
+  },
+  "errorExpected": false,
+  "expected": [
+    {
+      "sections_title": "found re apprai"
+    },
+    {
+      "sections_title": "found re apprai"
+    },
+    {
+      "sections_title": "stat&comp ap val"
+    },
+    {
+      "sections_title": "stat&comp ap val"
+    },
+    {
+      "sections_title": "resdnt prp study"
+    },
+    {
+      "sections_title": "resdnt prp study"
+    },
+    {
+      "sections_title": "resdnt prp study"
+    },
+    {
+      "sections_title": "cpt aid ms pr as"
+    },
+    {
+      "sections_title": "re crit analysis"
+    },
+    {
+      "sections_title": "electrochem eng"
+    },
+    {
+      "sections_title": "electrochem eng"
+    },
+    {
+      "sections_title": "chem integ lab i"
+    },
+    {
+      "sections_title": "engr econ anlys"
+    },
+    {
+      "sections_title": "wtr treat&wst mg"
+    },
+    {
+      "sections_title": "financial acctng"
+    },
+    {
+      "sections_title": "financial acctng"
+    },
+    {
+      "sections_title": "language & curr"
+    },
+    {
+      "sections_title": "language & curr"
+    },
+    {
+      "sections_title": "sustnbt&frst ops"
+    },
+    {
+      "sections_title": "forest ecology"
+    },
+    {
+      "sections_title": "intr biometrics"
+    },
+    {
+      "sections_title": "intr biometrics"
+    },
+    {
+      "sections_title": "hist 1500 - 20 c"
+    },
+    {
+      "sections_title": "hist 1500 - 20 c"
+    },
+    {
+      "sections_title": "hist 1500 - 20 c"
+    },
+    {
+      "sections_title": "hist 1500 - 20 c"
+    },
+    {
+      "sections_title": "hist 1500 - 20 c"
+    },
+    {
+      "sections_title": "in land food com"
+    },
+    {
+      "sections_title": "in land food com"
+    },
+    {
+      "sections_title": "intro acad writ"
+    },
+    {
+      "sections_title": "intro acad writ"
+    },
+    {
+      "sections_title": "intro acad writ"
+    },
+    {
+      "sections_title": "intro acad writ"
+    },
+    {
+      "sections_title": "intro acad writ"
+    },
+    {
+      "sections_title": "dif calc phys ap"
+    },
+    {
+      "sections_title": "dif calc phys ap"
+    },
+    {
+      "sections_title": "log & crit think"
+    },
+    {
+      "sections_title": "health psycholgy"
+    },
+    {
+      "sections_title": "prpty,ident&uses"
+    }
+  ]
+}

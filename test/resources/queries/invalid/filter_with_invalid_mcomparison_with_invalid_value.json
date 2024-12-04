@@ -1,0 +1,17 @@
+{
+	"title": "lte",
+	"input": {
+		"WHERE": {
+			"LT": {
+				"sections_id": "50"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

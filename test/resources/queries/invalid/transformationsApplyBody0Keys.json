@@ -1,0 +1,39 @@
+{
+	"title": "Apply body 2 keys when need 1",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title",
+				"hello"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"sections_instructor",
+					"sections_title"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_title",
+				"sections_instructor"
+			],
+			"APPLY": [
+				{
+					"hello": {
+
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

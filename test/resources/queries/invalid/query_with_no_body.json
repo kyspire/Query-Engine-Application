@@ -1,0 +1,12 @@
+{
+  "title": "lt",
+  "input": {
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_id"
+      ]
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

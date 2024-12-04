@@ -1,0 +1,15 @@
+{
+  "title": "lt",
+  "input": {
+    "WHERE": {
+      "NOT": {
+        "LT": {
+          "sections_avg": 50
+        }
+      }
+    },
+    "OPTIONS": ["sections_id"]
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

@@ -1,0 +1,357 @@
+{
+  "title": "Query ends wildcard",
+  "input": {
+    "WHERE": {
+      "IS": {
+        "sections_instructor": "*z"
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_instructor"
+      ]
+    }
+  },
+  "errorExpected": false,
+  "expected": [
+    {
+      "sections_instructor": "mills, dawn;taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "mills, dawn;taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "mills, dawn;taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "bi, xiaotao;ellis, naoko;grace, john ross;lim, choon jim;taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "bi, xiaotao;ellis, naoko;grace, john ross;taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "rajwani, aziz"
+    },
+    {
+      "sections_instructor": "swiecki, tomasz"
+    },
+    {
+      "sections_instructor": "swiecki, tomasz"
+    },
+    {
+      "sections_instructor": "swiecki, tomasz"
+    },
+    {
+      "sections_instructor": "swiecki, tomasz"
+    },
+    {
+      "sections_instructor": "swiecki, tomasz"
+    },
+    {
+      "sections_instructor": "swiecki, tomasz"
+    },
+    {
+      "sections_instructor": "swiecki, tomasz"
+    },
+    {
+      "sections_instructor": "swiecki, tomasz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "lampe, lutz"
+    },
+    {
+      "sections_instructor": "hall, robert;taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "dunbar, w scott;taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "dunbar, w scott;taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "dunbar, w scott;taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "dunbar, w scott;taghipour, fariborz"
+    },
+    {
+      "sections_instructor": "karli, deniz"
+    },
+    {
+      "sections_instructor": "karli, deniz"
+    },
+    {
+      "sections_instructor": "karli, deniz"
+    },
+    {
+      "sections_instructor": "karli, deniz"
+    },
+    {
+      "sections_instructor": "haji hajikolaei, kambiz"
+    },
+    {
+      "sections_instructor": "wodzynski, lukasz"
+    },
+    {
+      "sections_instructor": "wodzynski, lukasz"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+	"title": "Sections replaced with Rooms",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"LT": {
+						"rooms_pass": 350
+					}
+				},
+				{
+					"GT": {
+						"rooms_fail": 300
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_dept",
+				"maxSeats"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"maxSeats"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_dept"
+			],
+			"APPLY": [
+				{
+					"maxSeats": {
+						"COUNT": "rooms_pass"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

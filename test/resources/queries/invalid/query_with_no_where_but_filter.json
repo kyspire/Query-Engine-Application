@@ -1,0 +1,10 @@
+{
+  "title": "No Title Specified",
+  "input": {
+    "EQ": {
+      "sections_avg": 50
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

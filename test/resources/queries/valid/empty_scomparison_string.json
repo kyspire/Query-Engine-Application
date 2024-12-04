@@ -1,0 +1,573 @@
+{
+  "title": "No Title Specified",
+  "input": {
+    "WHERE": {
+      "IS": {
+        "sections_title": ""
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_instructor"
+      ]
+    }
+  },
+  "errorExpected": false,
+  "expected": [
+    {
+      "sections_instructor": "smith, kevin"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "smith, kevin"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "grace, john ross"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "smith, kevin"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "smith, kevin"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "smith, kevin"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "grace, john ross"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "smith, kevin"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "flood, karen"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": "haney, colleen;hawley, jody;tba"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "munteanu, mircea"
+    },
+    {
+      "sections_instructor": "flood, karen"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "schultz, izabela"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "schultz, izabela"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "schultz, izabela"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "schultz, izabela"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "schultz, izabela"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "schultz, izabela"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "schultz, izabela"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "shrestha, ratna"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "shrestha, ratna"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "shrestha, ratna"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "shrestha, ratna"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "kelly, deirdre"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "loutzenheiser, lisa"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "roman, leslie"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "metcalfe, amy"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "kelly, deirdre"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "shapiro, adam"
+    },
+    {
+      "sections_instructor": "wright, katharine"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "trim, henry"
+    },
+    {
+      "sections_instructor": "brain, robert"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "brain, robert"
+    },
+    {
+      "sections_instructor": "richardson, alan walter"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "semczyszyn, nola"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "brain, robert"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "cameron, maxwell"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "goenaga orrego, agustin"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "cameron, maxwell"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "cameron, maxwell"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "tockman, jason"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "cameron, maxwell"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "cameron, maxwell"
+    },
+    {
+      "sections_instructor": "cameron, maxwell"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "pacheco-vega, hector r"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "goenaga orrego, agustin"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "gagnon, jennifer"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "gagnon, jennifer"
+    },
+    {
+      "sections_instructor": "gagnon, jennifer"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "gagnon, jennifer"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "gagnon, jennifer"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "chen, jiahua"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "bouchard-cote, alexandre"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "wu, lang"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "chen, jiahua"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "wu, lang"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "chen, jiahua"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "chen, jiahua"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "wu, lang"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": "wu, lang"
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    },
+    {
+      "sections_instructor": ""
+    }
+  ]
+}

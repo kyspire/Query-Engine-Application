@@ -1,0 +1,38 @@
+{
+	"title": "Replaced Rooms for Sections All",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_lon": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_fullname",
+				"sections_shortname",
+				"overallAvg",
+				"count"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_fullname",
+				"sections_shortname"
+			],
+			"APPLY": [
+				{
+					"overallAvg": {
+						"AVG": "sections_lat"
+					}
+				},
+				{
+					"count": {
+						"COUNT": "sections_seats"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

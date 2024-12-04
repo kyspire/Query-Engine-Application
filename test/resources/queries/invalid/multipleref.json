@@ -1,0 +1,14 @@
+{
+  "title": "Query with more than 5000 results",
+  "input": {
+    "WHERE": {},
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_id",
+        "cpsc_id"
+      ]
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

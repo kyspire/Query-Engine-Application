@@ -1,0 +1,29 @@
+{
+	"title": "Key in Col not in Apply",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title",
+				"overallAvg",
+				"count"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_instructor",
+				"sections_title"
+			],
+			"APPLY": [
+
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

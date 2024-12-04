@@ -1,0 +1,42 @@
+{
+  "title": "test",
+  "input": {
+    "WHERE": {
+      "NOT": {
+        "AND": [
+          {
+            "LT": {
+              "sections_avg": 50
+            }
+          },
+          {
+            "GT": {
+              "sections_avg": 100
+            }
+          },
+          {
+            "EQ": {
+              "sections_avg": 10
+            }
+          },
+          {
+            "IS": {
+              "sections_id": "*1*"
+            }
+          }
+        ]
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_id",
+        "sections_dept",
+        "sections_title",
+        "sections_avg"
+      ],
+      "ORDER": "sections_title"
+    }
+  },
+  "errorExpected": true,
+  "expected": "ResultTooLargeError"
+}

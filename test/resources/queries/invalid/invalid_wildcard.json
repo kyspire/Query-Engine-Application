@@ -1,0 +1,17 @@
+{
+  "title": "Query contains wildcard",
+  "input": {
+    "WHERE": {
+      "IS": {
+        "sections_instructor": "z*z"
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_instructor"
+      ]
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

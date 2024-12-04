@@ -1,0 +1,9 @@
+{
+  "title": "No filter with no closing comma",
+  "input": {
+    "WHERE": {},
+    "OPTIONS": {}
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

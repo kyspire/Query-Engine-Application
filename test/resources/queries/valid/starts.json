@@ -1,0 +1,1593 @@
+{
+  "title": "Query starts wildcard",
+  "input": {
+    "WHERE": {
+      "IS": {
+        "sections_instructor": "z*"
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_instructor"
+      ]
+    }
+  },
+  "errorExpected": false,
+  "expected": [
+    {
+      "sections_instructor": "zur, dafna"
+    },
+    {
+      "sections_instructor": "zibin, james peter"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zhu, juliet"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, hao"
+    },
+    {
+      "sections_instructor": "zhang, hao"
+    },
+    {
+      "sections_instructor": "zhang, anming"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zeiler, kathryn"
+    },
+    {
+      "sections_instructor": "zeiler, kathryn"
+    },
+    {
+      "sections_instructor": "zeiler, kathryn"
+    },
+    {
+      "sections_instructor": "zeiler, kathryn"
+    },
+    {
+      "sections_instructor": "zeiler, kathryn"
+    },
+    {
+      "sections_instructor": "zeiler, kathryn"
+    },
+    {
+      "sections_instructor": "zeiler, kathryn"
+    },
+    {
+      "sections_instructor": "zeiler, kathryn"
+    },
+    {
+      "sections_instructor": "zeiler, kathryn"
+    },
+    {
+      "sections_instructor": "zhang, yuelin"
+    },
+    {
+      "sections_instructor": "zaenker, karl a"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zendrowski, dana"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, zhining"
+    },
+    {
+      "sections_instructor": "zheng, ming fang"
+    },
+    {
+      "sections_instructor": "zein, sany"
+    },
+    {
+      "sections_instructor": "zanotti, cristina"
+    },
+    {
+      "sections_instructor": "zanotti, cristina"
+    },
+    {
+      "sections_instructor": "zanotti, cristina"
+    },
+    {
+      "sections_instructor": "zhao, jinhua"
+    },
+    {
+      "sections_instructor": "zhao, jinhua"
+    },
+    {
+      "sections_instructor": "zhao, jinhua"
+    },
+    {
+      "sections_instructor": "zhao, jinhua"
+    },
+    {
+      "sections_instructor": "zhao, jinhua"
+    },
+    {
+      "sections_instructor": "zhao, jinhua"
+    },
+    {
+      "sections_instructor": "zhao, jinhua"
+    },
+    {
+      "sections_instructor": "zheng, lulin"
+    },
+    {
+      "sections_instructor": "zheng, lulin"
+    },
+    {
+      "sections_instructor": "zheng, lulin"
+    },
+    {
+      "sections_instructor": "zheng, lulin"
+    },
+    {
+      "sections_instructor": "zheng, lulin"
+    },
+    {
+      "sections_instructor": "zheng, lulin"
+    },
+    {
+      "sections_instructor": "zhang, hao"
+    },
+    {
+      "sections_instructor": "zhang, hao"
+    },
+    {
+      "sections_instructor": "zhang, hao"
+    },
+    {
+      "sections_instructor": "zhang, anming"
+    },
+    {
+      "sections_instructor": "zhang, anming"
+    },
+    {
+      "sections_instructor": "zhu, kejia"
+    },
+    {
+      "sections_instructor": "zhu, kejia"
+    },
+    {
+      "sections_instructor": "zrill, lanny"
+    },
+    {
+      "sections_instructor": "zhu, ting"
+    },
+    {
+      "sections_instructor": "zhu, ting"
+    },
+    {
+      "sections_instructor": "zhu, ting"
+    },
+    {
+      "sections_instructor": "zhu, ting"
+    },
+    {
+      "sections_instructor": "zhu, ting"
+    },
+    {
+      "sections_instructor": "zhu, ting"
+    },
+    {
+      "sections_instructor": "zhu, ting"
+    },
+    {
+      "sections_instructor": "zhu, ting"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhang, li"
+    },
+    {
+      "sections_instructor": "zhu, ting"
+    },
+    {
+      "sections_instructor": "zhu, ting"
+    },
+    {
+      "sections_instructor": "zhu, ting"
+    },
+    {
+      "sections_instructor": "zhu, juliet"
+    },
+    {
+      "sections_instructor": "zhu, juliet"
+    },
+    {
+      "sections_instructor": "zhu, juliet"
+    },
+    {
+      "sections_instructor": "zhu, juliet"
+    },
+    {
+      "sections_instructor": "zhu, juliet"
+    },
+    {
+      "sections_instructor": "zhu, juliet"
+    },
+    {
+      "sections_instructor": "zhu, juliet"
+    },
+    {
+      "sections_instructor": "zhu, juliet"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zhang, anming"
+    },
+    {
+      "sections_instructor": "zhang, anming"
+    },
+    {
+      "sections_instructor": "zhang, anming"
+    },
+    {
+      "sections_instructor": "zhang, anming"
+    },
+    {
+      "sections_instructor": "zhang, anming"
+    },
+    {
+      "sections_instructor": "zhang, anming"
+    },
+    {
+      "sections_instructor": "zhang, anming"
+    },
+    {
+      "sections_instructor": "zhang, anming"
+    },
+    {
+      "sections_instructor": "zeng, michelle xiaohua"
+    },
+    {
+      "sections_instructor": "zeng, michelle xiaohua"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zhang, wei"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zhang, zhe"
+    },
+    {
+      "sections_instructor": "zrill, lanny"
+    },
+    {
+      "sections_instructor": "zrill, lanny"
+    },
+    {
+      "sections_instructor": "zrill, lanny"
+    },
+    {
+      "sections_instructor": "zrill, lanny"
+    },
+    {
+      "sections_instructor": "zrill, lanny"
+    },
+    {
+      "sections_instructor": "zeitlin, michael"
+    },
+    {
+      "sections_instructor": "zeitlin, michael"
+    },
+    {
+      "sections_instructor": "zeitlin, michael"
+    },
+    {
+      "sections_instructor": "zerriffi, hisham"
+    },
+    {
+      "sections_instructor": "zerriffi, hisham"
+    },
+    {
+      "sections_instructor": "zerriffi, hisham"
+    },
+    {
+      "sections_instructor": "zerriffi, hisham"
+    },
+    {
+      "sections_instructor": "zawadzki, wojciech"
+    },
+    {
+      "sections_instructor": "zawadzki, wojciech"
+    },
+    {
+      "sections_instructor": "zawadzki, wojciech"
+    },
+    {
+      "sections_instructor": "zawadzki, wojciech"
+    },
+    {
+      "sections_instructor": "zebehazy, kim"
+    },
+    {
+      "sections_instructor": "zebehazy, kim"
+    },
+    {
+      "sections_instructor": "zdaniuk, bozena"
+    },
+    {
+      "sections_instructor": "zdaniuk, bozena"
+    },
+    {
+      "sections_instructor": "zdaniuk, bozena"
+    },
+    {
+      "sections_instructor": "zdaniuk, bozena"
+    },
+    {
+      "sections_instructor": "zebehazy, kim"
+    },
+    {
+      "sections_instructor": "zebehazy, kim"
+    },
+    {
+      "sections_instructor": "zumbo, bruno"
+    },
+    {
+      "sections_instructor": "zumbo, bruno"
+    },
+    {
+      "sections_instructor": "zumbo, bruno"
+    },
+    {
+      "sections_instructor": "zumbo, bruno"
+    },
+    {
+      "sections_instructor": "zumbo, bruno"
+    },
+    {
+      "sections_instructor": "zumbo, bruno"
+    },
+    {
+      "sections_instructor": "zumbo, bruno"
+    },
+    {
+      "sections_instructor": "zumbo, bruno"
+    },
+    {
+      "sections_instructor": "zumbo, bruno"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zawistowski, jerzy"
+    },
+    {
+      "sections_instructor": "zumrawi, abdel azim"
+    },
+    {
+      "sections_instructor": "zandbergen, paul"
+    },
+    {
+      "sections_instructor": "zandbergen, paul"
+    },
+    {
+      "sections_instructor": "zhu, yushu"
+    },
+    {
+      "sections_instructor": "zandbergen, paul"
+    },
+    {
+      "sections_instructor": "zandbergen, paul"
+    },
+    {
+      "sections_instructor": "zhu, yushu"
+    },
+    {
+      "sections_instructor": "zaenker, karl a"
+    },
+    {
+      "sections_instructor": "zaenker, karl a"
+    },
+    {
+      "sections_instructor": "zaenker, karl a"
+    },
+    {
+      "sections_instructor": "zaenker, karl a"
+    },
+    {
+      "sections_instructor": "zaenker, karl a"
+    },
+    {
+      "sections_instructor": "zaenker, karl a"
+    },
+    {
+      "sections_instructor": "zakiuddin, almas"
+    },
+    {
+      "sections_instructor": "zakiuddin, almas"
+    },
+    {
+      "sections_instructor": "zhang, gaoheng"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zappa, sandra"
+    },
+    {
+      "sections_instructor": "zhao, mingfeng"
+    },
+    {
+      "sections_instructor": "zangeneh, hamid"
+    },
+    {
+      "sections_instructor": "zhai, kelan"
+    },
+    {
+      "sections_instructor": "zahl, joshua"
+    },
+    {
+      "sections_instructor": "zhao, mingfeng"
+    },
+    {
+      "sections_instructor": "zhao, mingfeng"
+    },
+    {
+      "sections_instructor": "zhao, mingfeng"
+    },
+    {
+      "sections_instructor": "zhao, mingfeng"
+    },
+    {
+      "sections_instructor": "zhao, mingfeng"
+    },
+    {
+      "sections_instructor": "zhao, mingfeng"
+    },
+    {
+      "sections_instructor": "zwiers, ian"
+    },
+    {
+      "sections_instructor": "zwiers, ian"
+    },
+    {
+      "sections_instructor": "zwiers, ian"
+    },
+    {
+      "sections_instructor": "zaide, daniel"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zolfi-sistani, fahimeh"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhou, fei"
+    },
+    {
+      "sections_instructor": "zhou, fei"
+    },
+    {
+      "sections_instructor": "zhou, fei"
+    },
+    {
+      "sections_instructor": "zhou, fei"
+    },
+    {
+      "sections_instructor": "zhou, fei"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhitnitsky, ariel"
+    },
+    {
+      "sections_instructor": "zhou, fei"
+    },
+    {
+      "sections_instructor": "zhou, fei"
+    },
+    {
+      "sections_instructor": "zhou, fei"
+    },
+    {
+      "sections_instructor": "zhou, fei"
+    },
+    {
+      "sections_instructor": "zhou, fei"
+    },
+    {
+      "sections_instructor": "zeng, haishan"
+    },
+    {
+      "sections_instructor": "zeng, haishan"
+    },
+    {
+      "sections_instructor": "zeng, haishan"
+    },
+    {
+      "sections_instructor": "zeng, haishan"
+    },
+    {
+      "sections_instructor": "zeng, haishan"
+    },
+    {
+      "sections_instructor": "zhao, wanying"
+    },
+    {
+      "sections_instructor": "zhao, wanying"
+    },
+    {
+      "sections_instructor": "zhao, jiaying"
+    },
+    {
+      "sections_instructor": "zhao, jiaying"
+    },
+    {
+      "sections_instructor": "zhao, jiaying"
+    },
+    {
+      "sections_instructor": "zerriffi, hisham"
+    },
+    {
+      "sections_instructor": "zerriffi, hisham"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zeng, lulu"
+    },
+    {
+      "sections_instructor": "zhang, wei"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zamar, ruben"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    },
+    {
+      "sections_instructor": "zeigler, barbara"
+    }
+  ]
+}

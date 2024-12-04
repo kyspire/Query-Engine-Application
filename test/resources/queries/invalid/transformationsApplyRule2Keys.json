@@ -1,0 +1,42 @@
+{
+	"title": "Apply rule 2 keys, need 1",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title",
+				"hello"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"sections_instructor",
+					"sections_title"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_title",
+				"sections_instructor"
+			],
+			"APPLY": [
+				{
+					"hello": {
+						"SUM": "sections_avg"
+					},
+					"sect": {
+						"SUM": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

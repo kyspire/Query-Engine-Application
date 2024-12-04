@@ -1,0 +1,13 @@
+{
+  "title": "invalid_logic",
+  "input": {
+    "WHERE": {
+      "XOR": {
+        "sections_id": "103"
+      }
+    },
+    "OPTIONS": ["sections_id"]
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

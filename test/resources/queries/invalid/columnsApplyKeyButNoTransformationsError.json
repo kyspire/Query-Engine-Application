@@ -1,0 +1,26 @@
+{
+	"title": "anykey (applykey) given without transformations",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title",
+				"hello"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"sections_instructor",
+					"sections_title"
+				]
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

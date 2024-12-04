@@ -1,0 +1,38 @@
+{
+	"title": "No Apply Key",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title",
+				"overallAvg",
+				"count"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_instructor",
+				"sections_title"
+			],
+			"APPL": [
+				{
+					"overallAvg": {
+						"AVG": "sections_avg"
+					}
+				},
+				{
+					"count": {
+						"COUNT": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

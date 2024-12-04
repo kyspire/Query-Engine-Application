@@ -1,0 +1,30 @@
+{
+	"title": "emptyGroup",
+	"input": {
+		"WHERE": {
+			"LT": {
+				"rooms_seats": 0
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_type",
+				"count"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_type"
+			],
+			"APPLY": [
+				{
+					"count": {
+						"COUNT": "rooms_type"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

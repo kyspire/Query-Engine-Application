@@ -1,0 +1,17 @@
+{
+  "title": "No Title Specified",
+  "input": {
+    "WHERE": {
+      "IS": {
+        "s_ections_title": "s"
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_instructor"
+      ]
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

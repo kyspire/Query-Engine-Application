@@ -1,0 +1,26 @@
+{
+	"title": "all in cols, but one extra not in",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"sections_instructor",
+					"sections_title",
+					"sections_dept"
+				]
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

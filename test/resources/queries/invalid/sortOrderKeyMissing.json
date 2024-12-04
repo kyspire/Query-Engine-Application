@@ -1,0 +1,24 @@
+{
+	"title": "Order Key Invalid",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_title"
+			],
+			"ORDE": {
+				"dir": "UP",
+				"keys": [
+					"sections_title"
+				]
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

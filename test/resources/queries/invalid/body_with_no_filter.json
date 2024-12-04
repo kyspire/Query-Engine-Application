@@ -1,0 +1,13 @@
+{
+  "title": "lt",
+  "input": {
+    "WHERE": {},
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_id"
+      ]
+    }
+  },
+  "errorExpected": true,
+  "expected": "ResultTooLargeError"
+}

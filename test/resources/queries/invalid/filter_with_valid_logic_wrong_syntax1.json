@@ -1,0 +1,11 @@
+{
+  "title": "invalid_logic",
+  "input": {
+    "WHERE": {
+      "AND": {}
+    },
+    "OPTIONS": ["sections_id"]
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

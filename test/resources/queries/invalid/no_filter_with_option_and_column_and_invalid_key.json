@@ -1,0 +1,14 @@
+{
+  "title": "No filter with no closing comma",
+  "input": {
+    "WHERE": {},
+    "OPTIONS": {
+      "COLUMNS": [
+        "invalid_key",
+        "sect_ion_test"
+      ]
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

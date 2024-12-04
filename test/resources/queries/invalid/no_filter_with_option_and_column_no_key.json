@@ -1,0 +1,11 @@
+{
+  "title": "No filter with no closing comma",
+  "input": {
+    "WHERE": {},
+    "OPTIONS": {
+      "COLUMNS": []
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}
